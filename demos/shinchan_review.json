@@ -1,0 +1,21 @@
+{
+ "description": "[0] A cartoon-style illustration of a male character's head and upper torso, featuring a round face, black spiky hair, large eyes, a smiling mouth with a visible tongue, and a red shirt, set against a plain white background.",
+ "decision": {
+  "action": "local_edit",
+  "confidence": 0.5281000687398536,
+  "route": "review",
+  "reasons": [
+   "fails a criterion (meets p=0.76)"
+  ],
+  "targets": [
+   "0"
+  ],
+  "details": {
+   "region_scores": {
+    "0": 0.139
+   },
+   "meets": 0.755,
+   "global_fault": 0.089
+  }
+ }
+}

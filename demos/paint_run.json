@@ -1,0 +1,233 @@
+{
+ "log": [
+  {
+   "step": "draw head outline",
+   "last_action": "opened Paint with a blank canvas",
+   "source": "a11y",
+   "chars": 4402,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6229686467343762,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.136,
+    "unexpected": 0.102,
+    "small_failure": 0.264,
+    "last_action_ok": 0.45,
+    "risky": 0.08,
+    "stuck": 0.231
+   }
+  },
+  {
+   "step": "draw ears",
+   "last_action": "draw head outline",
+   "source": "a11y",
+   "chars": 4399,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6326636926173763,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.153,
+    "unexpected": 0.132,
+    "small_failure": 0.273,
+    "last_action_ok": 0.464,
+    "risky": 0.095,
+    "stuck": 0.238
+   }
+  },
+  {
+   "step": "draw hair",
+   "last_action": "draw ears",
+   "source": "a11y",
+   "chars": 4400,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5835572352785827,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.154,
+    "unexpected": 0.111,
+    "small_failure": 0.283,
+    "last_action_ok": 0.392,
+    "risky": 0.095,
+    "stuck": 0.233
+   }
+  },
+  {
+   "step": "draw eyebrows eyes nose",
+   "last_action": "draw hair",
+   "source": "a11y",
+   "chars": 4399,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5641701214008081,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.16,
+    "unexpected": 0.102,
+    "small_failure": 0.288,
+    "last_action_ok": 0.364,
+    "risky": 0.089,
+    "stuck": 0.242
+   }
+  },
+  {
+   "step": "draw mouth and tongue",
+   "last_action": "draw eyebrows eyes nose",
+   "source": "a11y",
+   "chars": 4400,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5847952802582764,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.173,
+    "unexpected": 0.117,
+    "small_failure": 0.276,
+    "last_action_ok": 0.394,
+    "risky": 0.088,
+    "stuck": 0.233
+   }
+  },
+  {
+   "step": "draw neck and shirt",
+   "last_action": "draw mouth and tongue",
+   "source": "a11y",
+   "chars": 4400,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5979938921407635,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.208,
+    "unexpected": 0.119,
+    "small_failure": 0.277,
+    "last_action_ok": 0.413,
+    "risky": 0.088,
+    "stuck": 0.244
+   }
+  },
+  {
+   "step": "fill colours",
+   "last_action": "draw neck and shirt",
+   "source": "a11y",
+   "chars": 4400,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6003614800118902,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.224,
+    "unexpected": 0.108,
+    "small_failure": 0.267,
+    "last_action_ok": 0.417,
+    "risky": 0.089,
+    "stuck": 0.233
+   }
+  },
+  {
+   "step": "finished",
+   "last_action": "fill colours",
+   "source": "a11y",
+   "chars": 4356,
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5946877012056268,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.297,
+    "unexpected": 0.11,
+    "small_failure": 0.282,
+    "last_action_ok": 0.408,
+    "risky": 0.094,
+    "stuck": 0.236
+   }
+  }
+ ],
+ "skipped_fills": [
+  {
+   "color": "black",
+   "at": [
+    900,
+    388.19595998968157
+   ],
+   "area": 1
+  },
+  {
+   "color": "black",
+   "at": [
+    958,
+    381.0
+   ],
+   "area": 2
+  }
+ ],
+ "review": {
+  "description": "[1] The image shows a cartoon-style illustration of a boy's upper body. He has a round face with black spiky hair, large eyes, thick eyebrows, and an open mouth showing a pink tongue and teeth. He is wearing a red shirt. The background is plain white. There are no visible defects such as hands (only the neck and shoulders are shown), clear facial features, and no text present. The style is simple, flat vector art with bold black outlines and solid colors.",
+  "decision": {
+   "action": "pass",
+   "confidence": 0.7662204397250482,
+   "route": "fast",
+   "reasons": [],
+   "targets": [],
+   "details": {
+    "region_scores": {
+     "1": 0.175
+    },
+    "meets": 0.906,
+    "global_fault": 0.084
+   }
+  },
+  "raw": {
+   "meets": {
+    "type": "noul",
+    "noul": 0.9064881758900193
+   },
+   "global_fault": {
+    "type": "noul",
+    "noul": 0.08410376719473345
+   },
+   "region:1": {
+    "type": "noul",
+    "noul": 0.17485674632406573
+   }
+  }
+ },
+ "recording": {
+  "ok": true,
+  "file": "C:\\Users\\steven\\Videos\\RecordScreen\\recording-1790910094323.mp4"
+ }
+}

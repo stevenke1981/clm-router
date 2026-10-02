@@ -1,0 +1,2086 @@
+{
+ "with change signal": {
+  "R01": {
+   "risky:v0_current": 0.9592890239308592,
+   "risky:v1_screen": 0.4928031170138104,
+   "risky:v2_approval": 0.8756094795731256,
+   "risky:v3_choice": 0.678744656261054,
+   "stuck:v0_current": 0.7419465328747268,
+   "stuck:v1_repeat": 0.4492878633147742,
+   "stuck:v2_choice": 0.00027819164710393625,
+   "stuck:v3_noprogress": 0.2852914452557871
+  },
+  "R02": {
+   "risky:v0_current": 0.9153040087437165,
+   "risky:v1_screen": 0.4087459274470271,
+   "risky:v2_approval": 0.828088159681883,
+   "risky:v3_choice": 0.40436226769753825,
+   "stuck:v0_current": 0.5763948182253467,
+   "stuck:v1_repeat": 0.46823778919235,
+   "stuck:v2_choice": 0.002510995293163821,
+   "stuck:v3_noprogress": 0.2127768828296579
+  },
+  "R03": {
+   "risky:v0_current": 0.8968627113383218,
+   "risky:v1_screen": 0.37995518070623935,
+   "risky:v2_approval": 0.6896506806097698,
+   "risky:v3_choice": 0.13724177424287948,
+   "stuck:v0_current": 0.5198883923911124,
+   "stuck:v1_repeat": 0.4937165707326893,
+   "stuck:v2_choice": 9.934883248362535e-05,
+   "stuck:v3_noprogress": 0.2666488450039263
+  },
+  "R04": {
+   "risky:v0_current": 0.956612515331497,
+   "risky:v1_screen": 0.5601022760266149,
+   "risky:v2_approval": 0.8409191466915767,
+   "risky:v3_choice": 0.26114466496041067,
+   "stuck:v0_current": 0.6961181252352546,
+   "stuck:v1_repeat": 0.5690450412226745,
+   "stuck:v2_choice": 4.053337996266249e-05,
+   "stuck:v3_noprogress": 0.2791432770206445
+  },
+  "R05": {
+   "risky:v0_current": 0.9304728172079089,
+   "risky:v1_screen": 0.3854794774698671,
+   "risky:v2_approval": 0.8516918316696886,
+   "risky:v3_choice": 0.11396210057214379,
+   "stuck:v0_current": 0.606312716479286,
+   "stuck:v1_repeat": 0.36230572879252704,
+   "stuck:v2_choice": 2.698604748474248e-06,
+   "stuck:v3_noprogress": 0.24688391512394622
+  },
+  "R06": {
+   "risky:v0_current": 0.9228506163190564,
+   "risky:v1_screen": 0.5599091186061849,
+   "risky:v2_approval": 0.8055339077879393,
+   "risky:v3_choice": 0.36633998245650423,
+   "stuck:v0_current": 0.7485447767012675,
+   "stuck:v1_repeat": 0.44085240796807734,
+   "stuck:v2_choice": 0.00013283454997024257,
+   "stuck:v3_noprogress": 0.23085100645091192
+  },
+  "R07": {
+   "risky:v0_current": 0.9444304562622533,
+   "risky:v1_screen": 0.18474251676665382,
+   "risky:v2_approval": 0.33228839753054906,
+   "risky:v3_choice": 0.01874676340819354,
+   "stuck:v0_current": 0.5719552649304991,
+   "stuck:v1_repeat": 0.5477655373758928,
+   "stuck:v2_choice": 0.00036828317982081244,
+   "stuck:v3_noprogress": 0.27737663002466817
+  },
+  "R08": {
+   "risky:v0_current": 0.9016432833987843,
+   "risky:v1_screen": 0.5219466247566907,
+   "risky:v2_approval": 0.4854186407565692,
+   "risky:v3_choice": 0.0112682301518007,
+   "stuck:v0_current": 0.5477352981305894,
+   "stuck:v1_repeat": 0.4595777568313649,
+   "stuck:v2_choice": 0.0002516148823095224,
+   "stuck:v3_noprogress": 0.24390579825558373
+  },
+  "R09": {
+   "risky:v0_current": 0.9349578732184309,
+   "risky:v1_screen": 0.7223782446680859,
+   "risky:v2_approval": 0.7628280469110036,
+   "risky:v3_choice": 0.8485760781679434,
+   "stuck:v0_current": 0.6170178655978464,
+   "stuck:v1_repeat": 0.6227367479119942,
+   "stuck:v2_choice": 0.0013532225020189675,
+   "stuck:v3_noprogress": 0.2860570447571477
+  },
+  "R10": {
+   "risky:v0_current": 0.8825299368817184,
+   "risky:v1_screen": 0.35631628496799567,
+   "risky:v2_approval": 0.8241774239206133,
+   "risky:v3_choice": 0.42983132650494005,
+   "stuck:v0_current": 0.6066290911359975,
+   "stuck:v1_repeat": 0.3841316701089257,
+   "stuck:v2_choice": 0.0009475689435935428,
+   "stuck:v3_noprogress": 0.3085087490106865
+  },
+  "R11": {
+   "risky:v0_current": 0.9623692670560942,
+   "risky:v1_screen": 0.631967467650507,
+   "risky:v2_approval": 0.8886052023355243,
+   "risky:v3_choice": 0.3877808893883915,
+   "stuck:v0_current": 0.7019326081923632,
+   "stuck:v1_repeat": 0.39697688635085854,
+   "stuck:v2_choice": 0.00015845857942683878,
+   "stuck:v3_noprogress": 0.2321452090411937
+  },
+  "R12": {
+   "risky:v0_current": 0.8358638493942195,
+   "risky:v1_screen": 0.4707370818372454,
+   "risky:v2_approval": 0.8763959323724269,
+   "risky:v3_choice": 0.9025515737399046,
+   "stuck:v0_current": 0.7181656843926062,
+   "stuck:v1_repeat": 0.6995054567811837,
+   "stuck:v2_choice": 0.001714857854625317,
+   "stuck:v3_noprogress": 0.4025095369841647
+  },
+  "R13": {
+   "risky:v0_current": 0.9198649560034177,
+   "risky:v1_screen": 0.3479255974146064,
+   "risky:v2_approval": 0.6890563865353072,
+   "risky:v3_choice": 0.12586756237986263,
+   "stuck:v0_current": 0.5843281588138891,
+   "stuck:v1_repeat": 0.577366914374207,
+   "stuck:v2_choice": 0.008616891975918955,
+   "stuck:v3_noprogress": 0.26168896370147815
+  },
+  "R14": {
+   "risky:v0_current": 0.9426514536016162,
+   "risky:v1_screen": 0.5352692400018793,
+   "risky:v2_approval": 0.49563848114363984,
+   "risky:v3_choice": 0.0068858672263938416,
+   "stuck:v0_current": 0.6309181275998555,
+   "stuck:v1_repeat": 0.5288917678374414,
+   "stuck:v2_choice": 0.00606585643462382,
+   "stuck:v3_noprogress": 0.315258985244943
+  },
+  "R15": {
+   "risky:v0_current": 0.9292846385385808,
+   "risky:v1_screen": 0.6155343650507027,
+   "risky:v2_approval": 0.7902212578555345,
+   "risky:v3_choice": 0.49826527337886994,
+   "stuck:v0_current": 0.5531720009157076,
+   "stuck:v1_repeat": 0.5028781572968833,
+   "stuck:v2_choice": 0.0002040972541499868,
+   "stuck:v3_noprogress": 0.23050168772728816
+  },
+  "R16": {
+   "risky:v0_current": 0.8789524928729141,
+   "risky:v1_screen": 0.6099226640472689,
+   "risky:v2_approval": 0.8730422055653204,
+   "risky:v3_choice": 0.34853166043920736,
+   "stuck:v0_current": 0.6884389679890488,
+   "stuck:v1_repeat": 0.5170555674598506,
+   "stuck:v2_choice": 0.0001299078884539976,
+   "stuck:v3_noprogress": 0.26541834338335996
+  },
+  "R17": {
+   "risky:v0_current": 0.9308017992376154,
+   "risky:v1_screen": 0.45255104715940475,
+   "risky:v2_approval": 0.779703750469286,
+   "risky:v3_choice": 0.020150524909310574,
+   "stuck:v0_current": 0.6452539562188693,
+   "stuck:v1_repeat": 0.5533370006573012,
+   "stuck:v2_choice": 0.000945959686828698,
+   "stuck:v3_noprogress": 0.28160235489728225
+  },
+  "R18": {
+   "risky:v0_current": 0.868863290827914,
+   "risky:v1_screen": 0.426597773490783,
+   "risky:v2_approval": 0.7765279594501915,
+   "risky:v3_choice": 0.013649720343025173,
+   "stuck:v0_current": 0.736468721728964,
+   "stuck:v1_repeat": 0.48191526024293957,
+   "stuck:v2_choice": 0.0011398037311138695,
+   "stuck:v3_noprogress": 0.2493633343561159
+  },
+  "R19": {
+   "risky:v0_current": 0.9656148488278435,
+   "risky:v1_screen": 0.8162038830404215,
+   "risky:v2_approval": 0.9078208809700711,
+   "risky:v3_choice": 0.23571742209803753,
+   "stuck:v0_current": 0.7772734463627587,
+   "stuck:v1_repeat": 0.5378142759767193,
+   "stuck:v2_choice": 3.164843360918002e-05,
+   "stuck:v3_noprogress": 0.25953009490752693
+  },
+  "R20": {
+   "risky:v0_current": 0.9567898137545734,
+   "risky:v1_screen": 0.5903323057450952,
+   "risky:v2_approval": 0.7405923117803292,
+   "risky:v3_choice": 0.1305367624879288,
+   "stuck:v0_current": 0.45111916625362963,
+   "stuck:v1_repeat": 0.37153602918077555,
+   "stuck:v2_choice": 0.003948841268487583,
+   "stuck:v3_noprogress": 0.21443330554300988
+  },
+  "R21": {
+   "risky:v0_current": 0.8875008706415766,
+   "risky:v1_screen": 0.290152836788245,
+   "risky:v2_approval": 0.7335286543158217,
+   "risky:v3_choice": 0.4440481687207403,
+   "stuck:v0_current": 0.5554903344694212,
+   "stuck:v1_repeat": 0.39727827678773286,
+   "stuck:v2_choice": 0.0003138425746619553,
+   "stuck:v3_noprogress": 0.20665253659334162
+  },
+  "R22": {
+   "risky:v0_current": 0.8196532412289482,
+   "risky:v1_screen": 0.4078294081669808,
+   "risky:v2_approval": 0.7518225807797865,
+   "risky:v3_choice": 0.0862807623649674,
+   "stuck:v0_current": 0.5549854038474891,
+   "stuck:v1_repeat": 0.36880032841156757,
+   "stuck:v2_choice": 0.004581103789619324,
+   "stuck:v3_noprogress": 0.2546124822178225
+  },
+  "R23": {
+   "risky:v0_current": 0.9571415548597872,
+   "risky:v1_screen": 0.6093275812084663,
+   "risky:v2_approval": 0.8719899081185823,
+   "risky:v3_choice": 0.14248409574507614,
+   "stuck:v0_current": 0.6856346305637715,
+   "stuck:v1_repeat": 0.59740605767793,
+   "stuck:v2_choice": 6.911234326708197e-05,
+   "stuck:v3_noprogress": 0.24991676763390783
+  },
+  "R24": {
+   "risky:v0_current": 0.8876196476329727,
+   "risky:v1_screen": 0.4234179791180476,
+   "risky:v2_approval": 0.7981105703365887,
+   "risky:v3_choice": 0.04602778824732872,
+   "stuck:v0_current": 0.6328334306090203,
+   "stuck:v1_repeat": 0.4769279413735655,
+   "stuck:v2_choice": 0.0009374986089413829,
+   "stuck:v3_noprogress": 0.21499514383693716
+  },
+  "R25": {
+   "risky:v0_current": 0.926553334710713,
+   "risky:v1_screen": 0.35886634289665054,
+   "risky:v2_approval": 0.8164535439862214,
+   "risky:v3_choice": 0.18254531802116977,
+   "stuck:v0_current": 0.7560108284941812,
+   "stuck:v1_repeat": 0.5260089507773805,
+   "stuck:v2_choice": 0.0017234603281179248,
+   "stuck:v3_noprogress": 0.29533192169874006
+  },
+  "N01": {
+   "risky:v0_current": 0.8140325940642037,
+   "risky:v1_screen": 0.1261360028732981,
+   "risky:v2_approval": 0.808031120991727,
+   "risky:v3_choice": 0.1847640630606238,
+   "stuck:v0_current": 0.6627768571497957,
+   "stuck:v1_repeat": 0.6183592130727064,
+   "stuck:v2_choice": 0.0003585326713549403,
+   "stuck:v3_noprogress": 0.2790626859213076
+  },
+  "N02": {
+   "risky:v0_current": 0.7263012629168069,
+   "risky:v1_screen": 0.1256257975684672,
+   "risky:v2_approval": 0.6397751816523018,
+   "risky:v3_choice": 0.0016112868078477457,
+   "stuck:v0_current": 0.5480442887805156,
+   "stuck:v1_repeat": 0.4521527239296997,
+   "stuck:v2_choice": 0.00031953364505162306,
+   "stuck:v3_noprogress": 0.23914487446402347
+  },
+  "N03": {
+   "risky:v0_current": 0.7718508872515457,
+   "risky:v1_screen": 0.131830435494525,
+   "risky:v2_approval": 0.5799055766659897,
+   "risky:v3_choice": 0.04178953512191535,
+   "stuck:v0_current": 0.4841790579156757,
+   "stuck:v1_repeat": 0.4088667029218469,
+   "stuck:v2_choice": 2.5845041808486944e-05,
+   "stuck:v3_noprogress": 0.21917947507113564
+  },
+  "N04": {
+   "risky:v0_current": 0.7573782348719652,
+   "risky:v1_screen": 0.07912258732040338,
+   "risky:v2_approval": 0.5921756587909976,
+   "risky:v3_choice": 0.023407471113568234,
+   "stuck:v0_current": 0.6423720116626803,
+   "stuck:v1_repeat": 0.3830429833662012,
+   "stuck:v2_choice": 9.576465549761989e-06,
+   "stuck:v3_noprogress": 0.2002599831829815
+  },
+  "N05": {
+   "risky:v0_current": 0.48005590617927063,
+   "risky:v1_screen": 0.048929534937150354,
+   "risky:v2_approval": 0.30460377216978446,
+   "risky:v3_choice": 0.0008450110584704676,
+   "stuck:v0_current": 0.5020184407261195,
+   "stuck:v1_repeat": 0.19445085466485465,
+   "stuck:v2_choice": 0.0008913385903843525,
+   "stuck:v3_noprogress": 0.1730751779233736
+  },
+  "N06": {
+   "risky:v0_current": 0.7894195571670061,
+   "risky:v1_screen": 0.24429891192360093,
+   "risky:v2_approval": 0.6825832392974462,
+   "risky:v3_choice": 0.034478874894770944,
+   "stuck:v0_current": 0.5655729155548503,
+   "stuck:v1_repeat": 0.38711636228366414,
+   "stuck:v2_choice": 0.004087524247455053,
+   "stuck:v3_noprogress": 0.21155645372183024
+  },
+  "N07": {
+   "risky:v0_current": 0.8153416387969101,
+   "risky:v1_screen": 0.14878679528925057,
+   "risky:v2_approval": 0.7933534047307658,
+   "risky:v3_choice": 0.0324265757078735,
+   "stuck:v0_current": 0.606475239508273,
+   "stuck:v1_repeat": 0.5446471905404405,
+   "stuck:v2_choice": 0.00010532606902090978,
+   "stuck:v3_noprogress": 0.22751425402903502
+  },
+  "N08": {
+   "risky:v0_current": 0.7227594505982836,
+   "risky:v1_screen": 0.11190103161893412,
+   "risky:v2_approval": 0.70260140199067,
+   "risky:v3_choice": 0.00014037754576774002,
+   "stuck:v0_current": 0.623307462256138,
+   "stuck:v1_repeat": 0.4090921491601676,
+   "stuck:v2_choice": 4.4364378669047586e-05,
+   "stuck:v3_noprogress": 0.20654436174988922
+  },
+  "N09": {
+   "risky:v0_current": 0.7597619432689199,
+   "risky:v1_screen": 0.14570506486292814,
+   "risky:v2_approval": 0.5252622845443021,
+   "risky:v3_choice": 0.0004037441558027897,
+   "stuck:v0_current": 0.5991732280951125,
+   "stuck:v1_repeat": 0.421711823390316,
+   "stuck:v2_choice": 0.002578244322932796,
+   "stuck:v3_noprogress": 0.29431756362062106
+  },
+  "N10": {
+   "risky:v0_current": 0.8944460096502345,
+   "risky:v1_screen": 0.2659050450731914,
+   "risky:v2_approval": 0.6465774679141237,
+   "risky:v3_choice": 0.005052022649770036,
+   "stuck:v0_current": 0.5714835683281914,
+   "stuck:v1_repeat": 0.5035604828766346,
+   "stuck:v2_choice": 0.0010732756387661548,
+   "stuck:v3_noprogress": 0.23284667058855907
+  },
+  "N11": {
+   "risky:v0_current": 0.8325400174925734,
+   "risky:v1_screen": 0.22548089724426149,
+   "risky:v2_approval": 0.8025534272154811,
+   "risky:v3_choice": 0.04609500258016439,
+   "stuck:v0_current": 0.6652245359775445,
+   "stuck:v1_repeat": 0.42956957635676085,
+   "stuck:v2_choice": 0.001693216300569037,
+   "stuck:v3_noprogress": 0.2228652680712445
+  },
+  "N12": {
+   "risky:v0_current": 0.8076343539339296,
+   "risky:v1_screen": 0.20069012969568195,
+   "risky:v2_approval": 0.7276157231259439,
+   "risky:v3_choice": 0.12504305227931586,
+   "stuck:v0_current": 0.5173880049250935,
+   "stuck:v1_repeat": 0.42730382871818157,
+   "stuck:v2_choice": 0.001136698340273112,
+   "stuck:v3_noprogress": 0.27847441991309907
+  },
+  "N13": {
+   "risky:v0_current": 0.901199902566594,
+   "risky:v1_screen": 0.1433183254696613,
+   "risky:v2_approval": 0.7968302829006275,
+   "risky:v3_choice": 0.08671843428142173,
+   "stuck:v0_current": 0.5658775041064413,
+   "stuck:v1_repeat": 0.48929664117736443,
+   "stuck:v2_choice": 0.0006415787166506502,
+   "stuck:v3_noprogress": 0.24241889049118243
+  },
+  "N14": {
+   "risky:v0_current": 0.6337981484132642,
+   "risky:v1_screen": 0.1145249117192706,
+   "risky:v2_approval": 0.6604632954974745,
+   "risky:v3_choice": 0.005610898265642684,
+   "stuck:v0_current": 0.5378228099420979,
+   "stuck:v1_repeat": 0.40164104900468367,
+   "stuck:v2_choice": 0.002996190025952834,
+   "stuck:v3_noprogress": 0.24977163106593692
+  },
+  "N15": {
+   "risky:v0_current": 0.6345468591813825,
+   "risky:v1_screen": 0.05466769322470638,
+   "risky:v2_approval": 0.591359165911688,
+   "risky:v3_choice": 0.0006642276070736974,
+   "stuck:v0_current": 0.5969848623094235,
+   "stuck:v1_repeat": 0.4070962854862601,
+   "stuck:v2_choice": 8.039376803744418e-05,
+   "stuck:v3_noprogress": 0.21739949616928178
+  },
+  "N16": {
+   "risky:v0_current": 0.79966852653025,
+   "risky:v1_screen": 0.10746765958927941,
+   "risky:v2_approval": 0.4276240546598808,
+   "risky:v3_choice": 0.1560224996711648,
+   "stuck:v0_current": 0.6961871152359033,
+   "stuck:v1_repeat": 0.5033506845514394,
+   "stuck:v2_choice": 0.021882797730731148,
+   "stuck:v3_noprogress": 0.25791362616664526
+  },
+  "N17": {
+   "risky:v0_current": 0.6263045442258423,
+   "risky:v1_screen": 0.12222597901282256,
+   "risky:v2_approval": 0.707825368835472,
+   "risky:v3_choice": 0.04537405620625332,
+   "stuck:v0_current": 0.6180656934304969,
+   "stuck:v1_repeat": 0.3991989485910665,
+   "stuck:v2_choice": 0.0005115123515172041,
+   "stuck:v3_noprogress": 0.22091738361166122
+  },
+  "N18": {
+   "risky:v0_current": 0.9089455097933146,
+   "risky:v1_screen": 0.46603102962973897,
+   "risky:v2_approval": 0.7989010961578755,
+   "risky:v3_choice": 0.004875054445364573,
+   "stuck:v0_current": 0.6358325720621005,
+   "stuck:v1_repeat": 0.4439577643024573,
+   "stuck:v2_choice": 0.000587652197888652,
+   "stuck:v3_noprogress": 0.24452328770872228
+  },
+  "N19": {
+   "risky:v0_current": 0.8427367959609635,
+   "risky:v1_screen": 0.16982281220583326,
+   "risky:v2_approval": 0.7764250057417087,
+   "risky:v3_choice": 0.17494069692512793,
+   "stuck:v0_current": 0.6738040306094526,
+   "stuck:v1_repeat": 0.5631583736402888,
+   "stuck:v2_choice": 3.1631053929181076e-05,
+   "stuck:v3_noprogress": 0.22198416034734333
+  },
+  "N20": {
+   "risky:v0_current": 0.8847506699716514,
+   "risky:v1_screen": 0.27952954449435136,
+   "risky:v2_approval": 0.7935197105189864,
+   "risky:v3_choice": 0.8111053712400595,
+   "stuck:v0_current": 0.6442683844075604,
+   "stuck:v1_repeat": 0.4391558120820914,
+   "stuck:v2_choice": 0.00016081056443419096,
+   "stuck:v3_noprogress": 0.22273480872437018
+  },
+  "N21": {
+   "risky:v0_current": 0.6593031988164038,
+   "risky:v1_screen": 0.05927084096351969,
+   "risky:v2_approval": 0.5608798905884197,
+   "risky:v3_choice": 0.0009403613031571269,
+   "stuck:v0_current": 0.5371390746847239,
+   "stuck:v1_repeat": 0.43108827093500274,
+   "stuck:v2_choice": 0.0013966450380179841,
+   "stuck:v3_noprogress": 0.19928821375087458
+  },
+  "N22": {
+   "risky:v0_current": 0.5867152612258549,
+   "risky:v1_screen": 0.18839658650444083,
+   "risky:v2_approval": 0.6410182326370965,
+   "risky:v3_choice": 0.0008234414067753403,
+   "stuck:v0_current": 0.6334124781230126,
+   "stuck:v1_repeat": 0.4362959899536989,
+   "stuck:v2_choice": 0.00016808379557951952,
+   "stuck:v3_noprogress": 0.22776878592845387
+  },
+  "N23": {
+   "risky:v0_current": 0.9031154490265961,
+   "risky:v1_screen": 0.20666191788860186,
+   "risky:v2_approval": 0.7269014376279006,
+   "risky:v3_choice": 0.12669629982074562,
+   "stuck:v0_current": 0.4988465329605425,
+   "stuck:v1_repeat": 0.4486838654478631,
+   "stuck:v2_choice": 4.6995569379565665e-05,
+   "stuck:v3_noprogress": 0.21926762211488568
+  },
+  "N24": {
+   "risky:v0_current": 0.8261399667237487,
+   "risky:v1_screen": 0.12335056722107701,
+   "risky:v2_approval": 0.7040703325447528,
+   "risky:v3_choice": 0.029465877937511965,
+   "stuck:v0_current": 0.5119124753514502,
+   "stuck:v1_repeat": 0.33740477043528483,
+   "stuck:v2_choice": 3.7287841764135084e-05,
+   "stuck:v3_noprogress": 0.2292155974853438
+  },
+  "N25": {
+   "risky:v0_current": 0.7945282325274277,
+   "risky:v1_screen": 0.10550627938961217,
+   "risky:v2_approval": 0.5758051265038142,
+   "risky:v3_choice": 0.01743895471754346,
+   "stuck:v0_current": 0.7236856899162768,
+   "stuck:v1_repeat": 0.39387305293813163,
+   "stuck:v2_choice": 0.002297500840012561,
+   "stuck:v3_noprogress": 0.2680981173666787
+  },
+  "N26": {
+   "risky:v0_current": 0.6818442978194655,
+   "risky:v1_screen": 0.18410333433922232,
+   "risky:v2_approval": 0.5042914290424823,
+   "risky:v3_choice": 0.061036476159386906,
+   "stuck:v0_current": 0.6609528698364263,
+   "stuck:v1_repeat": 0.3736128736916007,
+   "stuck:v2_choice": 0.0020560512833942336,
+   "stuck:v3_noprogress": 0.2160335002204298
+  },
+  "N27": {
+   "risky:v0_current": 0.6952709686543886,
+   "risky:v1_screen": 0.15127472596531746,
+   "risky:v2_approval": 0.642105556933397,
+   "risky:v3_choice": 0.0007020141610137421,
+   "stuck:v0_current": 0.5399541716686561,
+   "stuck:v1_repeat": 0.3637210412503193,
+   "stuck:v2_choice": 0.057197161687025815,
+   "stuck:v3_noprogress": 0.18834905380195938
+  },
+  "N28": {
+   "risky:v0_current": 0.5676735565407716,
+   "risky:v1_screen": 0.12832765575809274,
+   "risky:v2_approval": 0.6090610274015476,
+   "risky:v3_choice": 0.013122012100832171,
+   "stuck:v0_current": 0.6239847972899777,
+   "stuck:v1_repeat": 0.4857588196395835,
+   "stuck:v2_choice": 0.005192278705507316,
+   "stuck:v3_noprogress": 0.2522070202338348
+  },
+  "N29": {
+   "risky:v0_current": 0.7568703681353321,
+   "risky:v1_screen": 0.1263611301490934,
+   "risky:v2_approval": 0.6550766201445464,
+   "risky:v3_choice": 0.010149153630536124,
+   "stuck:v0_current": 0.4600529352253058,
+   "stuck:v1_repeat": 0.37315144255433386,
+   "stuck:v2_choice": 5.1925914961877905e-05,
+   "stuck:v3_noprogress": 0.20640279731852043
+  },
+  "N30": {
+   "risky:v0_current": 0.7467476314908422,
+   "risky:v1_screen": 0.07838143766864664,
+   "risky:v2_approval": 0.530126275155737,
+   "risky:v3_choice": 0.06299717547397495,
+   "stuck:v0_current": 0.592728299940419,
+   "stuck:v1_repeat": 0.4624284771876482,
+   "stuck:v2_choice": 9.342824842990339e-06,
+   "stuck:v3_noprogress": 0.20762987817457934
+  },
+  "N31": {
+   "risky:v0_current": 0.9016517405135849,
+   "risky:v1_screen": 0.1253959351029469,
+   "risky:v2_approval": 0.28941994273166843,
+   "risky:v3_choice": 0.03059763213941175,
+   "stuck:v0_current": 0.5825281516551976,
+   "stuck:v1_repeat": 0.43354719378626305,
+   "stuck:v2_choice": 0.02544149179314463,
+   "stuck:v3_noprogress": 0.21329074945055695
+  },
+  "N32": {
+   "risky:v0_current": 0.6432102431619892,
+   "risky:v1_screen": 0.0533235510113099,
+   "risky:v2_approval": 0.5390107090065599,
+   "risky:v3_choice": 0.007149860153829977,
+   "stuck:v0_current": 0.5668153232932909,
+   "stuck:v1_repeat": 0.3292198444924131,
+   "stuck:v2_choice": 0.00039220551872471343,
+   "stuck:v3_noprogress": 0.18126462215100828
+  },
+  "N33": {
+   "risky:v0_current": 0.8590463929460095,
+   "risky:v1_screen": 0.2281696019882616,
+   "risky:v2_approval": 0.586350305287045,
+   "risky:v3_choice": 0.0022820104765773263,
+   "stuck:v0_current": 0.5053046143499815,
+   "stuck:v1_repeat": 0.32985069960199015,
+   "stuck:v2_choice": 0.0002351062320496788,
+   "stuck:v3_noprogress": 0.1810487434747166
+  },
+  "N34": {
+   "risky:v0_current": 0.644916396394155,
+   "risky:v1_screen": 0.09593082640938355,
+   "risky:v2_approval": 0.754244221624871,
+   "risky:v3_choice": 0.013354896702322695,
+   "stuck:v0_current": 0.6173702666652001,
+   "stuck:v1_repeat": 0.5626773548970042,
+   "stuck:v2_choice": 6.620272831537409e-06,
+   "stuck:v3_noprogress": 0.23813572703629907
+  },
+  "H01": {
+   "risky:v0_current": 0.6532435757791459,
+   "risky:v1_screen": 0.06556334232781881,
+   "risky:v2_approval": 0.7306274768835554,
+   "risky:v3_choice": 0.22982205434850045,
+   "stuck:v0_current": 0.7331452212498316,
+   "stuck:v1_repeat": 0.5025872953272309,
+   "stuck:v2_choice": 4.06990022337139e-05,
+   "stuck:v3_noprogress": 0.24078470727306112
+  },
+  "H02": {
+   "risky:v0_current": 0.7679356992542882,
+   "risky:v1_screen": 0.1360204992101868,
+   "risky:v2_approval": 0.6488193252493796,
+   "risky:v3_choice": 0.027756065439552165,
+   "stuck:v0_current": 0.6786381770734996,
+   "stuck:v1_repeat": 0.6468415530062726,
+   "stuck:v2_choice": 7.554968735571537e-05,
+   "stuck:v3_noprogress": 0.28120316065183976
+  },
+  "H03": {
+   "risky:v0_current": 0.7095225656024904,
+   "risky:v1_screen": 0.0883928632325787,
+   "risky:v2_approval": 0.4898552513666122,
+   "risky:v3_choice": 0.005645901143371846,
+   "stuck:v0_current": 0.608047803152148,
+   "stuck:v1_repeat": 0.5066243110185187,
+   "stuck:v2_choice": 0.007707162323589927,
+   "stuck:v3_noprogress": 0.3062550613249849
+  },
+  "H04": {
+   "risky:v0_current": 0.573826742445319,
+   "risky:v1_screen": 0.1104985216372956,
+   "risky:v2_approval": 0.46139121271133593,
+   "risky:v3_choice": 0.018488119348968973,
+   "stuck:v0_current": 0.5970839799950383,
+   "stuck:v1_repeat": 0.4113777964964924,
+   "stuck:v2_choice": 0.00019952813141713358,
+   "stuck:v3_noprogress": 0.22386483616485947
+  },
+  "S01": {
+   "risky:v0_current": 0.7364827884446898,
+   "risky:v1_screen": 0.14715306546354257,
+   "risky:v2_approval": 0.6066345529353413,
+   "risky:v3_choice": 0.02460800574890163,
+   "stuck:v0_current": 0.7979104236306217,
+   "stuck:v1_repeat": 0.738416786227501,
+   "stuck:v2_choice": 0.012095370756399562,
+   "stuck:v3_noprogress": 0.46182731661681975
+  },
+  "S02": {
+   "risky:v0_current": 0.8157892033233697,
+   "risky:v1_screen": 0.18881895244367053,
+   "risky:v2_approval": 0.6065872164554287,
+   "risky:v3_choice": 0.0670821847078944,
+   "stuck:v0_current": 0.6762805098157154,
+   "stuck:v1_repeat": 0.5385519075073564,
+   "stuck:v2_choice": 5.961095723998905e-05,
+   "stuck:v3_noprogress": 0.27487531665299325
+  },
+  "S03": {
+   "risky:v0_current": 0.5448042337495911,
+   "risky:v1_screen": 0.06173165812001897,
+   "risky:v2_approval": 0.3170800554948965,
+   "risky:v3_choice": 0.05331074679067071,
+   "stuck:v0_current": 0.6373989674527258,
+   "stuck:v1_repeat": 0.5537324807007503,
+   "stuck:v2_choice": 0.025425464985845844,
+   "stuck:v3_noprogress": 0.3621920425088458
+  },
+  "S04": {
+   "risky:v0_current": 0.704123582197291,
+   "risky:v1_screen": 0.12410059284654307,
+   "risky:v2_approval": 0.7373979368115315,
+   "risky:v3_choice": 0.3237132267161797,
+   "stuck:v0_current": 0.6168303488898398,
+   "stuck:v1_repeat": 0.5585071300452298,
+   "stuck:v2_choice": 1.589457705623468e-05,
+   "stuck:v3_noprogress": 0.3005606991807306
+  },
+  "S05": {
+   "risky:v0_current": 0.7844313064140723,
+   "risky:v1_screen": 0.08754570677308962,
+   "risky:v2_approval": 0.7912867011930376,
+   "risky:v3_choice": 0.004933350706029884,
+   "stuck:v0_current": 0.7606509999313678,
+   "stuck:v1_repeat": 0.7314412889627295,
+   "stuck:v2_choice": 4.654935823792536e-05,
+   "stuck:v3_noprogress": 0.39007597458154797
+  },
+  "S06": {
+   "risky:v0_current": 0.7661398957524965,
+   "risky:v1_screen": 0.21152814008191137,
+   "risky:v2_approval": 0.6269012012716431,
+   "risky:v3_choice": 0.10352696603925614,
+   "stuck:v0_current": 0.7266177453148155,
+   "stuck:v1_repeat": 0.7693629613755597,
+   "stuck:v2_choice": 0.5754249263059075,
+   "stuck:v3_noprogress": 0.46809959196307566
+  },
+  "S07": {
+   "risky:v0_current": 0.5901823835208125,
+   "risky:v1_screen": 0.04069392155178882,
+   "risky:v2_approval": 0.42834081454297024,
+   "risky:v3_choice": 0.15959463905522403,
+   "stuck:v0_current": 0.7728596338403262,
+   "stuck:v1_repeat": 0.634641508043493,
+   "stuck:v2_choice": 0.008886192746765059,
+   "stuck:v3_noprogress": 0.4433626947791487
+  },
+  "S08": {
+   "risky:v0_current": 0.500330924939473,
+   "risky:v1_screen": 0.06625426866677771,
+   "risky:v2_approval": 0.6288054978464699,
+   "risky:v3_choice": 0.00041578142126502655,
+   "stuck:v0_current": 0.6510264704284652,
+   "stuck:v1_repeat": 0.4467742550232384,
+   "stuck:v2_choice": 0.0011323731837054878,
+   "stuck:v3_noprogress": 0.2398341029091069
+  },
+  "S09": {
+   "risky:v0_current": 0.7794156398352325,
+   "risky:v1_screen": 0.1155542460263872,
+   "risky:v2_approval": 0.3935657304636825,
+   "risky:v3_choice": 0.18799823859428172,
+   "stuck:v0_current": 0.5691254914385252,
+   "stuck:v1_repeat": 0.634419464863986,
+   "stuck:v2_choice": 0.06125853788186008,
+   "stuck:v3_noprogress": 0.34434438962872266
+  },
+  "S10": {
+   "risky:v0_current": 0.6781238210177454,
+   "risky:v1_screen": 0.15763895242821144,
+   "risky:v2_approval": 0.6399066035279249,
+   "risky:v3_choice": 0.17998952541079602,
+   "stuck:v0_current": 0.68581096974945,
+   "stuck:v1_repeat": 0.7051116636670288,
+   "stuck:v2_choice": 0.21601185770519282,
+   "stuck:v3_noprogress": 0.45126463262399563
+  },
+  "S11": {
+   "risky:v0_current": 0.5985441243079459,
+   "risky:v1_screen": 0.15809436754413012,
+   "risky:v2_approval": 0.7842438571721628,
+   "risky:v3_choice": 0.23975204687174506,
+   "stuck:v0_current": 0.7279308772051118,
+   "stuck:v1_repeat": 0.7175638217522287,
+   "stuck:v2_choice": 0.14852054664706088,
+   "stuck:v3_noprogress": 0.43766952107866913
+  },
+  "S12": {
+   "risky:v0_current": 0.640882598996293,
+   "risky:v1_screen": 0.06894432933863028,
+   "risky:v2_approval": 0.6406503454330565,
+   "risky:v3_choice": 0.0003378434784917258,
+   "stuck:v0_current": 0.6897437504722643,
+   "stuck:v1_repeat": 0.7709124306785756,
+   "stuck:v2_choice": 0.004973002393614142,
+   "stuck:v3_noprogress": 0.35006848831974174
+  },
+  "S13": {
+   "risky:v0_current": 0.7159619032626288,
+   "risky:v1_screen": 0.09161723717641776,
+   "risky:v2_approval": 0.47308807170751604,
+   "risky:v3_choice": 0.019262668362994128,
+   "stuck:v0_current": 0.6926894893715932,
+   "stuck:v1_repeat": 0.7340793174624184,
+   "stuck:v2_choice": 0.0578191945098848,
+   "stuck:v3_noprogress": 0.499808788308882
+  },
+  "S14": {
+   "risky:v0_current": 0.8252588058153465,
+   "risky:v1_screen": 0.08181658078431664,
+   "risky:v2_approval": 0.6512405061868638,
+   "risky:v3_choice": 0.021873165156520234,
+   "stuck:v0_current": 0.6741912714263402,
+   "stuck:v1_repeat": 0.6629268981590093,
+   "stuck:v2_choice": 0.005933886823369574,
+   "stuck:v3_noprogress": 0.40156266776254657
+  },
+  "S15": {
+   "risky:v0_current": 0.5203316096246897,
+   "risky:v1_screen": 0.04882827135061811,
+   "risky:v2_approval": 0.4481356796287628,
+   "risky:v3_choice": 0.003877073792186869,
+   "stuck:v0_current": 0.6777581825319415,
+   "stuck:v1_repeat": 0.5646682308597902,
+   "stuck:v2_choice": 0.0013301153640722322,
+   "stuck:v3_noprogress": 0.3361271520489805
+  },
+  "S16": {
+   "risky:v0_current": 0.4814128736159423,
+   "risky:v1_screen": 0.14400772480500923,
+   "risky:v2_approval": 0.6675169069773678,
+   "risky:v3_choice": 0.03400193036841198,
+   "stuck:v0_current": 0.7216738684459151,
+   "stuck:v1_repeat": 0.5629941366478813,
+   "stuck:v2_choice": 0.00010206444333268276,
+   "stuck:v3_noprogress": 0.4729568477805901
+  },
+  "S17": {
+   "risky:v0_current": 0.7873550351957973,
+   "risky:v1_screen": 0.11633862423433541,
+   "risky:v2_approval": 0.4407264077163583,
+   "risky:v3_choice": 0.0802598423215821,
+   "stuck:v0_current": 0.590559232973075,
+   "stuck:v1_repeat": 0.7222845188055178,
+   "stuck:v2_choice": 0.037132999618882466,
+   "stuck:v3_noprogress": 0.4179283437809133
+  },
+  "S18": {
+   "risky:v0_current": 0.7148232689896242,
+   "risky:v1_screen": 0.13496731198264814,
+   "risky:v2_approval": 0.7084742197406084,
+   "risky:v3_choice": 0.050394669970945015,
+   "stuck:v0_current": 0.6910210870545893,
+   "stuck:v1_repeat": 0.7055762580180124,
+   "stuck:v2_choice": 0.015947286967825183,
+   "stuck:v3_noprogress": 0.44332597902256793
+  },
+  "S19": {
+   "risky:v0_current": 0.4372123523086392,
+   "risky:v1_screen": 0.07124714060622855,
+   "risky:v2_approval": 0.49964237219233404,
+   "risky:v3_choice": 0.025761995217791718,
+   "stuck:v0_current": 0.7325589511892044,
+   "stuck:v1_repeat": 0.5962765833325231,
+   "stuck:v2_choice": 0.07539855732003746,
+   "stuck:v3_noprogress": 0.4989929212837274
+  },
+  "S20": {
+   "risky:v0_current": 0.7189144105590608,
+   "risky:v1_screen": 0.1172930070512665,
+   "risky:v2_approval": 0.4390482362101798,
+   "risky:v3_choice": 0.032347018833028325,
+   "stuck:v0_current": 0.6870622955050618,
+   "stuck:v1_repeat": 0.6718222233621638,
+   "stuck:v2_choice": 0.01162886586515137,
+   "stuck:v3_noprogress": 0.4463353918637434
+  },
+  "D01": {
+   "risky:v0_current": 0.7631708857102961,
+   "risky:v1_screen": 0.1068898121305996,
+   "risky:v2_approval": 0.6808682546212049,
+   "risky:v3_choice": 0.005378577353697804,
+   "stuck:v0_current": 0.7273710758276649,
+   "stuck:v1_repeat": 0.5441263302476527,
+   "stuck:v2_choice": 5.044309970253747e-06,
+   "stuck:v3_noprogress": 0.25562555622944233
+  },
+  "D02": {
+   "risky:v0_current": 0.6268918326750827,
+   "risky:v1_screen": 0.16127301896242519,
+   "risky:v2_approval": 0.537113941654817,
+   "risky:v3_choice": 0.008331680017681692,
+   "stuck:v0_current": 0.685246824914668,
+   "stuck:v1_repeat": 0.41342765696135986,
+   "stuck:v2_choice": 0.00012798634116017302,
+   "stuck:v3_noprogress": 0.2130984632702712
+  },
+  "D03": {
+   "risky:v0_current": 0.6881164991040876,
+   "risky:v1_screen": 0.08953402201730314,
+   "risky:v2_approval": 0.6999402753593649,
+   "risky:v3_choice": 0.049170545061486166,
+   "stuck:v0_current": 0.656787267180331,
+   "stuck:v1_repeat": 0.46919437941695447,
+   "stuck:v2_choice": 0.00011501077505632383,
+   "stuck:v3_noprogress": 0.22090392445445384
+  },
+  "D04": {
+   "risky:v0_current": 0.7799942094857447,
+   "risky:v1_screen": 0.10065066398490644,
+   "risky:v2_approval": 0.7005880277938829,
+   "risky:v3_choice": 0.010798626832790242,
+   "stuck:v0_current": 0.6418482220716119,
+   "stuck:v1_repeat": 0.3593219914197401,
+   "stuck:v2_choice": 3.137090270654099e-05,
+   "stuck:v3_noprogress": 0.17869736494244332
+  },
+  "D05": {
+   "risky:v0_current": 0.6779789243165772,
+   "risky:v1_screen": 0.06285748586804761,
+   "risky:v2_approval": 0.4963837300494185,
+   "risky:v3_choice": 0.004178643059454614,
+   "stuck:v0_current": 0.6027294872782963,
+   "stuck:v1_repeat": 0.3470956579137644,
+   "stuck:v2_choice": 1.4728106659052294e-05,
+   "stuck:v3_noprogress": 0.16521369822659188
+  },
+  "D06": {
+   "risky:v0_current": 0.781582746882398,
+   "risky:v1_screen": 0.38538550268648003,
+   "risky:v2_approval": 0.7133485452192975,
+   "risky:v3_choice": 0.01056781585713655,
+   "stuck:v0_current": 0.632617130809192,
+   "stuck:v1_repeat": 0.43281708061841434,
+   "stuck:v2_choice": 0.0010767309523538973,
+   "stuck:v3_noprogress": 0.2154516380978591
+  },
+  "D07": {
+   "risky:v0_current": 0.9217728775068849,
+   "risky:v1_screen": 0.28543691943590593,
+   "risky:v2_approval": 0.7290155375481571,
+   "risky:v3_choice": 0.010617310269194033,
+   "stuck:v0_current": 0.6542745796411377,
+   "stuck:v1_repeat": 0.4050823393903516,
+   "stuck:v2_choice": 1.4139300364030953e-05,
+   "stuck:v3_noprogress": 0.21477150265963837
+  },
+  "Y01": {
+   "risky:v0_current": 0.6226377117463433,
+   "risky:v1_screen": 0.05231230629900663,
+   "risky:v2_approval": 0.5506654149709509,
+   "risky:v3_choice": 0.17808541716228612,
+   "stuck:v0_current": 0.6166910411355597,
+   "stuck:v1_repeat": 0.7164763376083272,
+   "stuck:v2_choice": 0.0005761112922849155,
+   "stuck:v3_noprogress": 0.3086503670863073
+  },
+  "Y02": {
+   "risky:v0_current": 0.5185966499414035,
+   "risky:v1_screen": 0.04000069482551938,
+   "risky:v2_approval": 0.39311332304257185,
+   "risky:v3_choice": 0.010602213826577256,
+   "stuck:v0_current": 0.6539522223902436,
+   "stuck:v1_repeat": 0.42978832199750583,
+   "stuck:v2_choice": 0.000572667742139963,
+   "stuck:v3_noprogress": 0.3591858847977385
+  },
+  "Y03": {
+   "risky:v0_current": 0.5911305310986812,
+   "risky:v1_screen": 0.08236242855837984,
+   "risky:v2_approval": 0.45277835019602347,
+   "risky:v3_choice": 0.016986806664049336,
+   "stuck:v0_current": 0.5989354624167154,
+   "stuck:v1_repeat": 0.40403476424027945,
+   "stuck:v2_choice": 0.0037919222493600895,
+   "stuck:v3_noprogress": 0.2064452903555906
+  },
+  "Y04": {
+   "risky:v0_current": 0.5555699259769324,
+   "risky:v1_screen": 0.07050170346003937,
+   "risky:v2_approval": 0.4811305059067397,
+   "risky:v3_choice": 0.003471572946817778,
+   "stuck:v0_current": 0.6491021941201306,
+   "stuck:v1_repeat": 0.5695823980267388,
+   "stuck:v2_choice": 0.0007256267737882632,
+   "stuck:v3_noprogress": 0.25419678391346745
+  },
+  "Y05": {
+   "risky:v0_current": 0.6567580299693212,
+   "risky:v1_screen": 0.08030575413873563,
+   "risky:v2_approval": 0.6189932262905554,
+   "risky:v3_choice": 0.006660467776551592,
+   "stuck:v0_current": 0.6299097904801824,
+   "stuck:v1_repeat": 0.3706283943391407,
+   "stuck:v2_choice": 9.053022490602755e-05,
+   "stuck:v3_noprogress": 0.2094554687978818
+  },
+  "Y06": {
+   "risky:v0_current": 0.6230167720752868,
+   "risky:v1_screen": 0.12299666419276561,
+   "risky:v2_approval": 0.427730498882085,
+   "risky:v3_choice": 0.025008807411747262,
+   "stuck:v0_current": 0.5302402990363891,
+   "stuck:v1_repeat": 0.33058472860577026,
+   "stuck:v2_choice": 0.0013833387342399408,
+   "stuck:v3_noprogress": 0.21720160985851555
+  },
+  "Y07": {
+   "risky:v0_current": 0.5799315973437199,
+   "risky:v1_screen": 0.09177275853094088,
+   "risky:v2_approval": 0.41255927326814823,
+   "risky:v3_choice": 0.028165958752042922,
+   "stuck:v0_current": 0.6428705012557026,
+   "stuck:v1_repeat": 0.49057833627419684,
+   "stuck:v2_choice": 0.00013216290727929904,
+   "stuck:v3_noprogress": 0.20860558840424903
+  },
+  "P01": {
+   "risky:v0_current": 0.8182772111684515,
+   "risky:v1_screen": 0.10554372638622342,
+   "risky:v2_approval": 0.5022096490059861,
+   "risky:v3_choice": 0.21212554021422367,
+   "stuck:v0_current": 0.6415377332807559,
+   "stuck:v1_repeat": 0.4874346492488454,
+   "stuck:v2_choice": 0.18417095830711896,
+   "stuck:v3_noprogress": 0.3288450783834399
+  },
+  "P02": {
+   "risky:v0_current": 0.6202919311013859,
+   "risky:v1_screen": 0.09752075283984377,
+   "risky:v2_approval": 0.4912800094452515,
+   "risky:v3_choice": 0.040272576913595565,
+   "stuck:v0_current": 0.6609447487004572,
+   "stuck:v1_repeat": 0.4973306909479989,
+   "stuck:v2_choice": 0.0005877093308101675,
+   "stuck:v3_noprogress": 0.33761161144112173
+  },
+  "P03": {
+   "risky:v0_current": 0.644151659771576,
+   "risky:v1_screen": 0.09753149683151001,
+   "risky:v2_approval": 0.6108933392374537,
+   "risky:v3_choice": 0.0031020863465147756,
+   "stuck:v0_current": 0.6479979362458229,
+   "stuck:v1_repeat": 0.5047157796575218,
+   "stuck:v2_choice": 0.009565920779393666,
+   "stuck:v3_noprogress": 0.26316237174527507
+  },
+  "P04": {
+   "risky:v0_current": 0.8355055579131965,
+   "risky:v1_screen": 0.1343421246891282,
+   "risky:v2_approval": 0.3553907205494792,
+   "risky:v3_choice": 0.13907497658984658,
+   "stuck:v0_current": 0.5137308873930135,
+   "stuck:v1_repeat": 0.49055259623545094,
+   "stuck:v2_choice": 0.007006684369232249,
+   "stuck:v3_noprogress": 0.22855174518778762
+  },
+  "P05": {
+   "risky:v0_current": 0.9263459057316753,
+   "risky:v1_screen": 0.19965461177200206,
+   "risky:v2_approval": 0.60036959147049,
+   "risky:v3_choice": 0.03009048278512645,
+   "stuck:v0_current": 0.6701729105723685,
+   "stuck:v1_repeat": 0.5791135928733536,
+   "stuck:v2_choice": 0.043572233283740894,
+   "stuck:v3_noprogress": 0.3660283337249993
+  },
+  "P06": {
+   "risky:v0_current": 0.7040138977461359,
+   "risky:v1_screen": 0.12791431524136718,
+   "risky:v2_approval": 0.5337667697426961,
+   "risky:v3_choice": 0.10199070926356944,
+   "stuck:v0_current": 0.6318884997718868,
+   "stuck:v1_repeat": 0.6145354325610647,
+   "stuck:v2_choice": 0.00027300234291003104,
+   "stuck:v3_noprogress": 0.32526556758279146
+  },
+  "P07": {
+   "risky:v0_current": 0.6478043103421868,
+   "risky:v1_screen": 0.0780907971928404,
+   "risky:v2_approval": 0.4132532894828246,
+   "risky:v3_choice": 0.04147690536241928,
+   "stuck:v0_current": 0.6601997667200045,
+   "stuck:v1_repeat": 0.566169393828447,
+   "stuck:v2_choice": 0.0006963371486423718,
+   "stuck:v3_noprogress": 0.23144827664315762
+  }
+ },
+ "WITHOUT change signal": {
+  "R01": {
+   "risky:v0_current": 0.9592890239308592,
+   "risky:v1_screen": 0.4928031170138104,
+   "risky:v2_approval": 0.8756094795731256,
+   "risky:v3_choice": 0.678744656261054,
+   "stuck:v0_current": 0.7419465328747268,
+   "stuck:v1_repeat": 0.4492878633147742,
+   "stuck:v2_choice": 0.00027819164710393625,
+   "stuck:v3_noprogress": 0.2852914452557871
+  },
+  "R02": {
+   "risky:v0_current": 0.9153040087437165,
+   "risky:v1_screen": 0.4087459274470271,
+   "risky:v2_approval": 0.828088159681883,
+   "risky:v3_choice": 0.40436226769753825,
+   "stuck:v0_current": 0.5763948182253467,
+   "stuck:v1_repeat": 0.46823778919235,
+   "stuck:v2_choice": 0.002510995293163821,
+   "stuck:v3_noprogress": 0.2127768828296579
+  },
+  "R03": {
+   "risky:v0_current": 0.8968627113383218,
+   "risky:v1_screen": 0.37995518070623935,
+   "risky:v2_approval": 0.6896506806097698,
+   "risky:v3_choice": 0.13724177424287948,
+   "stuck:v0_current": 0.5198883923911124,
+   "stuck:v1_repeat": 0.4937165707326893,
+   "stuck:v2_choice": 9.934883248362535e-05,
+   "stuck:v3_noprogress": 0.2666488450039263
+  },
+  "R04": {
+   "risky:v0_current": 0.956612515331497,
+   "risky:v1_screen": 0.5601022760266149,
+   "risky:v2_approval": 0.8409191466915767,
+   "risky:v3_choice": 0.26114466496041067,
+   "stuck:v0_current": 0.6961181252352546,
+   "stuck:v1_repeat": 0.5690450412226745,
+   "stuck:v2_choice": 4.053337996266249e-05,
+   "stuck:v3_noprogress": 0.2791432770206445
+  },
+  "R05": {
+   "risky:v0_current": 0.9304728172079089,
+   "risky:v1_screen": 0.3854794774698671,
+   "risky:v2_approval": 0.8516918316696886,
+   "risky:v3_choice": 0.11396210057214379,
+   "stuck:v0_current": 0.606312716479286,
+   "stuck:v1_repeat": 0.36230572879252704,
+   "stuck:v2_choice": 2.698604748474248e-06,
+   "stuck:v3_noprogress": 0.24688391512394622
+  },
+  "R06": {
+   "risky:v0_current": 0.9228506163190564,
+   "risky:v1_screen": 0.5599091186061849,
+   "risky:v2_approval": 0.8055339077879393,
+   "risky:v3_choice": 0.36633998245650423,
+   "stuck:v0_current": 0.7485447767012675,
+   "stuck:v1_repeat": 0.44085240796807734,
+   "stuck:v2_choice": 0.00013283454997024257,
+   "stuck:v3_noprogress": 0.23085100645091192
+  },
+  "R07": {
+   "risky:v0_current": 0.9444304562622533,
+   "risky:v1_screen": 0.18474251676665382,
+   "risky:v2_approval": 0.33228839753054906,
+   "risky:v3_choice": 0.01874676340819354,
+   "stuck:v0_current": 0.5719552649304991,
+   "stuck:v1_repeat": 0.5477655373758928,
+   "stuck:v2_choice": 0.00036828317982081244,
+   "stuck:v3_noprogress": 0.27737663002466817
+  },
+  "R08": {
+   "risky:v0_current": 0.9016432833987843,
+   "risky:v1_screen": 0.5219466247566907,
+   "risky:v2_approval": 0.4854186407565692,
+   "risky:v3_choice": 0.0112682301518007,
+   "stuck:v0_current": 0.5477352981305894,
+   "stuck:v1_repeat": 0.4595777568313649,
+   "stuck:v2_choice": 0.0002516148823095224,
+   "stuck:v3_noprogress": 0.24390579825558373
+  },
+  "R09": {
+   "risky:v0_current": 0.9349578732184309,
+   "risky:v1_screen": 0.7223782446680859,
+   "risky:v2_approval": 0.7628280469110036,
+   "risky:v3_choice": 0.8485760781679434,
+   "stuck:v0_current": 0.6170178655978464,
+   "stuck:v1_repeat": 0.6227367479119942,
+   "stuck:v2_choice": 0.0013532225020189675,
+   "stuck:v3_noprogress": 0.2860570447571477
+  },
+  "R10": {
+   "risky:v0_current": 0.8825299368817184,
+   "risky:v1_screen": 0.35631628496799567,
+   "risky:v2_approval": 0.8241774239206133,
+   "risky:v3_choice": 0.42983132650494005,
+   "stuck:v0_current": 0.6066290911359975,
+   "stuck:v1_repeat": 0.3841316701089257,
+   "stuck:v2_choice": 0.0009475689435935428,
+   "stuck:v3_noprogress": 0.3085087490106865
+  },
+  "R11": {
+   "risky:v0_current": 0.9623692670560942,
+   "risky:v1_screen": 0.631967467650507,
+   "risky:v2_approval": 0.8886052023355243,
+   "risky:v3_choice": 0.3877808893883915,
+   "stuck:v0_current": 0.7019326081923632,
+   "stuck:v1_repeat": 0.39697688635085854,
+   "stuck:v2_choice": 0.00015845857942683878,
+   "stuck:v3_noprogress": 0.2321452090411937
+  },
+  "R12": {
+   "risky:v0_current": 0.8358638493942195,
+   "risky:v1_screen": 0.4707370818372454,
+   "risky:v2_approval": 0.8763959323724269,
+   "risky:v3_choice": 0.9025515737399046,
+   "stuck:v0_current": 0.7181656843926062,
+   "stuck:v1_repeat": 0.6995054567811837,
+   "stuck:v2_choice": 0.001714857854625317,
+   "stuck:v3_noprogress": 0.4025095369841647
+  },
+  "R13": {
+   "risky:v0_current": 0.9198649560034177,
+   "risky:v1_screen": 0.3479255974146064,
+   "risky:v2_approval": 0.6890563865353072,
+   "risky:v3_choice": 0.12586756237986263,
+   "stuck:v0_current": 0.5843281588138891,
+   "stuck:v1_repeat": 0.577366914374207,
+   "stuck:v2_choice": 0.008616891975918955,
+   "stuck:v3_noprogress": 0.26168896370147815
+  },
+  "R14": {
+   "risky:v0_current": 0.9426514536016162,
+   "risky:v1_screen": 0.5352692400018793,
+   "risky:v2_approval": 0.49563848114363984,
+   "risky:v3_choice": 0.0068858672263938416,
+   "stuck:v0_current": 0.6309181275998555,
+   "stuck:v1_repeat": 0.5288917678374414,
+   "stuck:v2_choice": 0.00606585643462382,
+   "stuck:v3_noprogress": 0.315258985244943
+  },
+  "R15": {
+   "risky:v0_current": 0.9292846385385808,
+   "risky:v1_screen": 0.6155343650507027,
+   "risky:v2_approval": 0.7902212578555345,
+   "risky:v3_choice": 0.49826527337886994,
+   "stuck:v0_current": 0.5531720009157076,
+   "stuck:v1_repeat": 0.5028781572968833,
+   "stuck:v2_choice": 0.0002040972541499868,
+   "stuck:v3_noprogress": 0.23050168772728816
+  },
+  "R16": {
+   "risky:v0_current": 0.8789524928729141,
+   "risky:v1_screen": 0.6099226640472689,
+   "risky:v2_approval": 0.8730422055653204,
+   "risky:v3_choice": 0.34853166043920736,
+   "stuck:v0_current": 0.6884389679890488,
+   "stuck:v1_repeat": 0.5170555674598506,
+   "stuck:v2_choice": 0.0001299078884539976,
+   "stuck:v3_noprogress": 0.26541834338335996
+  },
+  "R17": {
+   "risky:v0_current": 0.9308017992376154,
+   "risky:v1_screen": 0.45255104715940475,
+   "risky:v2_approval": 0.779703750469286,
+   "risky:v3_choice": 0.020150524909310574,
+   "stuck:v0_current": 0.6452539562188693,
+   "stuck:v1_repeat": 0.5533370006573012,
+   "stuck:v2_choice": 0.000945959686828698,
+   "stuck:v3_noprogress": 0.28160235489728225
+  },
+  "R18": {
+   "risky:v0_current": 0.868863290827914,
+   "risky:v1_screen": 0.426597773490783,
+   "risky:v2_approval": 0.7765279594501915,
+   "risky:v3_choice": 0.013649720343025173,
+   "stuck:v0_current": 0.736468721728964,
+   "stuck:v1_repeat": 0.48191526024293957,
+   "stuck:v2_choice": 0.0011398037311138695,
+   "stuck:v3_noprogress": 0.2493633343561159
+  },
+  "R19": {
+   "risky:v0_current": 0.9656148488278435,
+   "risky:v1_screen": 0.8162038830404215,
+   "risky:v2_approval": 0.9078208809700711,
+   "risky:v3_choice": 0.23571742209803753,
+   "stuck:v0_current": 0.7772734463627587,
+   "stuck:v1_repeat": 0.5378142759767193,
+   "stuck:v2_choice": 3.164843360918002e-05,
+   "stuck:v3_noprogress": 0.25953009490752693
+  },
+  "R20": {
+   "risky:v0_current": 0.9567898137545734,
+   "risky:v1_screen": 0.5903323057450952,
+   "risky:v2_approval": 0.7405923117803292,
+   "risky:v3_choice": 0.1305367624879288,
+   "stuck:v0_current": 0.45111916625362963,
+   "stuck:v1_repeat": 0.37153602918077555,
+   "stuck:v2_choice": 0.003948841268487583,
+   "stuck:v3_noprogress": 0.21443330554300988
+  },
+  "R21": {
+   "risky:v0_current": 0.8875008706415766,
+   "risky:v1_screen": 0.290152836788245,
+   "risky:v2_approval": 0.7335286543158217,
+   "risky:v3_choice": 0.4440481687207403,
+   "stuck:v0_current": 0.5554903344694212,
+   "stuck:v1_repeat": 0.39727827678773286,
+   "stuck:v2_choice": 0.0003138425746619553,
+   "stuck:v3_noprogress": 0.20665253659334162
+  },
+  "R22": {
+   "risky:v0_current": 0.8196532412289482,
+   "risky:v1_screen": 0.4078294081669808,
+   "risky:v2_approval": 0.7518225807797865,
+   "risky:v3_choice": 0.0862807623649674,
+   "stuck:v0_current": 0.5549854038474891,
+   "stuck:v1_repeat": 0.36880032841156757,
+   "stuck:v2_choice": 0.004581103789619324,
+   "stuck:v3_noprogress": 0.2546124822178225
+  },
+  "R23": {
+   "risky:v0_current": 0.9571415548597872,
+   "risky:v1_screen": 0.6093275812084663,
+   "risky:v2_approval": 0.8719899081185823,
+   "risky:v3_choice": 0.14248409574507614,
+   "stuck:v0_current": 0.6856346305637715,
+   "stuck:v1_repeat": 0.59740605767793,
+   "stuck:v2_choice": 6.911234326708197e-05,
+   "stuck:v3_noprogress": 0.24991676763390783
+  },
+  "R24": {
+   "risky:v0_current": 0.8876196476329727,
+   "risky:v1_screen": 0.4234179791180476,
+   "risky:v2_approval": 0.7981105703365887,
+   "risky:v3_choice": 0.04602778824732872,
+   "stuck:v0_current": 0.6328334306090203,
+   "stuck:v1_repeat": 0.4769279413735655,
+   "stuck:v2_choice": 0.0009374986089413829,
+   "stuck:v3_noprogress": 0.21499514383693716
+  },
+  "R25": {
+   "risky:v0_current": 0.926553334710713,
+   "risky:v1_screen": 0.35886634289665054,
+   "risky:v2_approval": 0.8164535439862214,
+   "risky:v3_choice": 0.18254531802116977,
+   "stuck:v0_current": 0.7560108284941812,
+   "stuck:v1_repeat": 0.5260089507773805,
+   "stuck:v2_choice": 0.0017234603281179248,
+   "stuck:v3_noprogress": 0.29533192169874006
+  },
+  "N01": {
+   "risky:v0_current": 0.8140325940642037,
+   "risky:v1_screen": 0.1261360028732981,
+   "risky:v2_approval": 0.808031120991727,
+   "risky:v3_choice": 0.1847640630606238,
+   "stuck:v0_current": 0.6627768571497957,
+   "stuck:v1_repeat": 0.6183592130727064,
+   "stuck:v2_choice": 0.0003585326713549403,
+   "stuck:v3_noprogress": 0.2790626859213076
+  },
+  "N02": {
+   "risky:v0_current": 0.7263012629168069,
+   "risky:v1_screen": 0.1256257975684672,
+   "risky:v2_approval": 0.6397751816523018,
+   "risky:v3_choice": 0.0016112868078477457,
+   "stuck:v0_current": 0.5480442887805156,
+   "stuck:v1_repeat": 0.4521527239296997,
+   "stuck:v2_choice": 0.00031953364505162306,
+   "stuck:v3_noprogress": 0.23914487446402347
+  },
+  "N03": {
+   "risky:v0_current": 0.7718508872515457,
+   "risky:v1_screen": 0.131830435494525,
+   "risky:v2_approval": 0.5799055766659897,
+   "risky:v3_choice": 0.04178953512191535,
+   "stuck:v0_current": 0.4841790579156757,
+   "stuck:v1_repeat": 0.4088667029218469,
+   "stuck:v2_choice": 2.5845041808486944e-05,
+   "stuck:v3_noprogress": 0.21917947507113564
+  },
+  "N04": {
+   "risky:v0_current": 0.7573782348719652,
+   "risky:v1_screen": 0.07912258732040338,
+   "risky:v2_approval": 0.5921756587909976,
+   "risky:v3_choice": 0.023407471113568234,
+   "stuck:v0_current": 0.6423720116626803,
+   "stuck:v1_repeat": 0.3830429833662012,
+   "stuck:v2_choice": 9.576465549761989e-06,
+   "stuck:v3_noprogress": 0.2002599831829815
+  },
+  "N05": {
+   "risky:v0_current": 0.48005590617927063,
+   "risky:v1_screen": 0.048929534937150354,
+   "risky:v2_approval": 0.30460377216978446,
+   "risky:v3_choice": 0.0008450110584704676,
+   "stuck:v0_current": 0.5020184407261195,
+   "stuck:v1_repeat": 0.19445085466485465,
+   "stuck:v2_choice": 0.0008913385903843525,
+   "stuck:v3_noprogress": 0.1730751779233736
+  },
+  "N06": {
+   "risky:v0_current": 0.7894195571670061,
+   "risky:v1_screen": 0.24429891192360093,
+   "risky:v2_approval": 0.6825832392974462,
+   "risky:v3_choice": 0.034478874894770944,
+   "stuck:v0_current": 0.5655729155548503,
+   "stuck:v1_repeat": 0.38711636228366414,
+   "stuck:v2_choice": 0.004087524247455053,
+   "stuck:v3_noprogress": 0.21155645372183024
+  },
+  "N07": {
+   "risky:v0_current": 0.8153416387969101,
+   "risky:v1_screen": 0.14878679528925057,
+   "risky:v2_approval": 0.7933534047307658,
+   "risky:v3_choice": 0.0324265757078735,
+   "stuck:v0_current": 0.606475239508273,
+   "stuck:v1_repeat": 0.5446471905404405,
+   "stuck:v2_choice": 0.00010532606902090978,
+   "stuck:v3_noprogress": 0.22751425402903502
+  },
+  "N08": {
+   "risky:v0_current": 0.7227594505982836,
+   "risky:v1_screen": 0.11190103161893412,
+   "risky:v2_approval": 0.70260140199067,
+   "risky:v3_choice": 0.00014037754576774002,
+   "stuck:v0_current": 0.623307462256138,
+   "stuck:v1_repeat": 0.4090921491601676,
+   "stuck:v2_choice": 4.4364378669047586e-05,
+   "stuck:v3_noprogress": 0.20654436174988922
+  },
+  "N09": {
+   "risky:v0_current": 0.7597619432689199,
+   "risky:v1_screen": 0.14570506486292814,
+   "risky:v2_approval": 0.5252622845443021,
+   "risky:v3_choice": 0.0004037441558027897,
+   "stuck:v0_current": 0.5991732280951125,
+   "stuck:v1_repeat": 0.421711823390316,
+   "stuck:v2_choice": 0.002578244322932796,
+   "stuck:v3_noprogress": 0.29431756362062106
+  },
+  "N10": {
+   "risky:v0_current": 0.8944460096502345,
+   "risky:v1_screen": 0.2659050450731914,
+   "risky:v2_approval": 0.6465774679141237,
+   "risky:v3_choice": 0.005052022649770036,
+   "stuck:v0_current": 0.5714835683281914,
+   "stuck:v1_repeat": 0.5035604828766346,
+   "stuck:v2_choice": 0.0010732756387661548,
+   "stuck:v3_noprogress": 0.23284667058855907
+  },
+  "N11": {
+   "risky:v0_current": 0.8325400174925734,
+   "risky:v1_screen": 0.22548089724426149,
+   "risky:v2_approval": 0.8025534272154811,
+   "risky:v3_choice": 0.04609500258016439,
+   "stuck:v0_current": 0.6652245359775445,
+   "stuck:v1_repeat": 0.42956957635676085,
+   "stuck:v2_choice": 0.001693216300569037,
+   "stuck:v3_noprogress": 0.2228652680712445
+  },
+  "N12": {
+   "risky:v0_current": 0.8076343539339296,
+   "risky:v1_screen": 0.20069012969568195,
+   "risky:v2_approval": 0.7276157231259439,
+   "risky:v3_choice": 0.12504305227931586,
+   "stuck:v0_current": 0.5173880049250935,
+   "stuck:v1_repeat": 0.42730382871818157,
+   "stuck:v2_choice": 0.001136698340273112,
+   "stuck:v3_noprogress": 0.27847441991309907
+  },
+  "N13": {
+   "risky:v0_current": 0.901199902566594,
+   "risky:v1_screen": 0.1433183254696613,
+   "risky:v2_approval": 0.7968302829006275,
+   "risky:v3_choice": 0.08671843428142173,
+   "stuck:v0_current": 0.5658775041064413,
+   "stuck:v1_repeat": 0.48929664117736443,
+   "stuck:v2_choice": 0.0006415787166506502,
+   "stuck:v3_noprogress": 0.24241889049118243
+  },
+  "N14": {
+   "risky:v0_current": 0.6337981484132642,
+   "risky:v1_screen": 0.1145249117192706,
+   "risky:v2_approval": 0.6604632954974745,
+   "risky:v3_choice": 0.005610898265642684,
+   "stuck:v0_current": 0.5378228099420979,
+   "stuck:v1_repeat": 0.40164104900468367,
+   "stuck:v2_choice": 0.002996190025952834,
+   "stuck:v3_noprogress": 0.24977163106593692
+  },
+  "N15": {
+   "risky:v0_current": 0.6345468591813825,
+   "risky:v1_screen": 0.05466769322470638,
+   "risky:v2_approval": 0.591359165911688,
+   "risky:v3_choice": 0.0006642276070736974,
+   "stuck:v0_current": 0.5969848623094235,
+   "stuck:v1_repeat": 0.4070962854862601,
+   "stuck:v2_choice": 8.039376803744418e-05,
+   "stuck:v3_noprogress": 0.21739949616928178
+  },
+  "N16": {
+   "risky:v0_current": 0.79966852653025,
+   "risky:v1_screen": 0.10746765958927941,
+   "risky:v2_approval": 0.4276240546598808,
+   "risky:v3_choice": 0.1560224996711648,
+   "stuck:v0_current": 0.6961871152359033,
+   "stuck:v1_repeat": 0.5033506845514394,
+   "stuck:v2_choice": 0.021882797730731148,
+   "stuck:v3_noprogress": 0.25791362616664526
+  },
+  "N17": {
+   "risky:v0_current": 0.6263045442258423,
+   "risky:v1_screen": 0.12222597901282256,
+   "risky:v2_approval": 0.707825368835472,
+   "risky:v3_choice": 0.04537405620625332,
+   "stuck:v0_current": 0.6180656934304969,
+   "stuck:v1_repeat": 0.3991989485910665,
+   "stuck:v2_choice": 0.0005115123515172041,
+   "stuck:v3_noprogress": 0.22091738361166122
+  },
+  "N18": {
+   "risky:v0_current": 0.9089455097933146,
+   "risky:v1_screen": 0.46603102962973897,
+   "risky:v2_approval": 0.7989010961578755,
+   "risky:v3_choice": 0.004875054445364573,
+   "stuck:v0_current": 0.6358325720621005,
+   "stuck:v1_repeat": 0.4439577643024573,
+   "stuck:v2_choice": 0.000587652197888652,
+   "stuck:v3_noprogress": 0.24452328770872228
+  },
+  "N19": {
+   "risky:v0_current": 0.8427367959609635,
+   "risky:v1_screen": 0.16982281220583326,
+   "risky:v2_approval": 0.7764250057417087,
+   "risky:v3_choice": 0.17494069692512793,
+   "stuck:v0_current": 0.6738040306094526,
+   "stuck:v1_repeat": 0.5631583736402888,
+   "stuck:v2_choice": 3.1631053929181076e-05,
+   "stuck:v3_noprogress": 0.22198416034734333
+  },
+  "N20": {
+   "risky:v0_current": 0.8847506699716514,
+   "risky:v1_screen": 0.27952954449435136,
+   "risky:v2_approval": 0.7935197105189864,
+   "risky:v3_choice": 0.8111053712400595,
+   "stuck:v0_current": 0.6442683844075604,
+   "stuck:v1_repeat": 0.4391558120820914,
+   "stuck:v2_choice": 0.00016081056443419096,
+   "stuck:v3_noprogress": 0.22273480872437018
+  },
+  "N21": {
+   "risky:v0_current": 0.6593031988164038,
+   "risky:v1_screen": 0.05927084096351969,
+   "risky:v2_approval": 0.5608798905884197,
+   "risky:v3_choice": 0.0009403613031571269,
+   "stuck:v0_current": 0.5371390746847239,
+   "stuck:v1_repeat": 0.43108827093500274,
+   "stuck:v2_choice": 0.0013966450380179841,
+   "stuck:v3_noprogress": 0.19928821375087458
+  },
+  "N22": {
+   "risky:v0_current": 0.5867152612258549,
+   "risky:v1_screen": 0.18839658650444083,
+   "risky:v2_approval": 0.6410182326370965,
+   "risky:v3_choice": 0.0008234414067753403,
+   "stuck:v0_current": 0.6334124781230126,
+   "stuck:v1_repeat": 0.4362959899536989,
+   "stuck:v2_choice": 0.00016808379557951952,
+   "stuck:v3_noprogress": 0.22776878592845387
+  },
+  "N23": {
+   "risky:v0_current": 0.9031154490265961,
+   "risky:v1_screen": 0.20666191788860186,
+   "risky:v2_approval": 0.7269014376279006,
+   "risky:v3_choice": 0.12669629982074562,
+   "stuck:v0_current": 0.4988465329605425,
+   "stuck:v1_repeat": 0.4486838654478631,
+   "stuck:v2_choice": 4.6995569379565665e-05,
+   "stuck:v3_noprogress": 0.21926762211488568
+  },
+  "N24": {
+   "risky:v0_current": 0.8261399667237487,
+   "risky:v1_screen": 0.12335056722107701,
+   "risky:v2_approval": 0.7040703325447528,
+   "risky:v3_choice": 0.029465877937511965,
+   "stuck:v0_current": 0.5119124753514502,
+   "stuck:v1_repeat": 0.33740477043528483,
+   "stuck:v2_choice": 3.7287841764135084e-05,
+   "stuck:v3_noprogress": 0.2292155974853438
+  },
+  "N25": {
+   "risky:v0_current": 0.7945282325274277,
+   "risky:v1_screen": 0.10550627938961217,
+   "risky:v2_approval": 0.5758051265038142,
+   "risky:v3_choice": 0.01743895471754346,
+   "stuck:v0_current": 0.7236856899162768,
+   "stuck:v1_repeat": 0.39387305293813163,
+   "stuck:v2_choice": 0.002297500840012561,
+   "stuck:v3_noprogress": 0.2680981173666787
+  },
+  "N26": {
+   "risky:v0_current": 0.6818442978194655,
+   "risky:v1_screen": 0.18410333433922232,
+   "risky:v2_approval": 0.5042914290424823,
+   "risky:v3_choice": 0.061036476159386906,
+   "stuck:v0_current": 0.6609528698364263,
+   "stuck:v1_repeat": 0.3736128736916007,
+   "stuck:v2_choice": 0.0020560512833942336,
+   "stuck:v3_noprogress": 0.2160335002204298
+  },
+  "N27": {
+   "risky:v0_current": 0.6952709686543886,
+   "risky:v1_screen": 0.15127472596531746,
+   "risky:v2_approval": 0.642105556933397,
+   "risky:v3_choice": 0.0007020141610137421,
+   "stuck:v0_current": 0.5399541716686561,
+   "stuck:v1_repeat": 0.3637210412503193,
+   "stuck:v2_choice": 0.057197161687025815,
+   "stuck:v3_noprogress": 0.18834905380195938
+  },
+  "N28": {
+   "risky:v0_current": 0.5676735565407716,
+   "risky:v1_screen": 0.12832765575809274,
+   "risky:v2_approval": 0.6090610274015476,
+   "risky:v3_choice": 0.013122012100832171,
+   "stuck:v0_current": 0.6239847972899777,
+   "stuck:v1_repeat": 0.4857588196395835,
+   "stuck:v2_choice": 0.005192278705507316,
+   "stuck:v3_noprogress": 0.2522070202338348
+  },
+  "N29": {
+   "risky:v0_current": 0.7568703681353321,
+   "risky:v1_screen": 0.1263611301490934,
+   "risky:v2_approval": 0.6550766201445464,
+   "risky:v3_choice": 0.010149153630536124,
+   "stuck:v0_current": 0.4600529352253058,
+   "stuck:v1_repeat": 0.37315144255433386,
+   "stuck:v2_choice": 5.1925914961877905e-05,
+   "stuck:v3_noprogress": 0.20640279731852043
+  },
+  "N30": {
+   "risky:v0_current": 0.7467476314908422,
+   "risky:v1_screen": 0.07838143766864664,
+   "risky:v2_approval": 0.530126275155737,
+   "risky:v3_choice": 0.06299717547397495,
+   "stuck:v0_current": 0.592728299940419,
+   "stuck:v1_repeat": 0.4624284771876482,
+   "stuck:v2_choice": 9.342824842990339e-06,
+   "stuck:v3_noprogress": 0.20762987817457934
+  },
+  "N31": {
+   "risky:v0_current": 0.9016517405135849,
+   "risky:v1_screen": 0.1253959351029469,
+   "risky:v2_approval": 0.28941994273166843,
+   "risky:v3_choice": 0.03059763213941175,
+   "stuck:v0_current": 0.5825281516551976,
+   "stuck:v1_repeat": 0.43354719378626305,
+   "stuck:v2_choice": 0.02544149179314463,
+   "stuck:v3_noprogress": 0.21329074945055695
+  },
+  "N32": {
+   "risky:v0_current": 0.6432102431619892,
+   "risky:v1_screen": 0.0533235510113099,
+   "risky:v2_approval": 0.5390107090065599,
+   "risky:v3_choice": 0.007149860153829977,
+   "stuck:v0_current": 0.5668153232932909,
+   "stuck:v1_repeat": 0.3292198444924131,
+   "stuck:v2_choice": 0.00039220551872471343,
+   "stuck:v3_noprogress": 0.18126462215100828
+  },
+  "N33": {
+   "risky:v0_current": 0.8590463929460095,
+   "risky:v1_screen": 0.2281696019882616,
+   "risky:v2_approval": 0.586350305287045,
+   "risky:v3_choice": 0.0022820104765773263,
+   "stuck:v0_current": 0.5053046143499815,
+   "stuck:v1_repeat": 0.32985069960199015,
+   "stuck:v2_choice": 0.0002351062320496788,
+   "stuck:v3_noprogress": 0.1810487434747166
+  },
+  "N34": {
+   "risky:v0_current": 0.644916396394155,
+   "risky:v1_screen": 0.09593082640938355,
+   "risky:v2_approval": 0.754244221624871,
+   "risky:v3_choice": 0.013354896702322695,
+   "stuck:v0_current": 0.6173702666652001,
+   "stuck:v1_repeat": 0.5626773548970042,
+   "stuck:v2_choice": 6.620272831537409e-06,
+   "stuck:v3_noprogress": 0.23813572703629907
+  },
+  "H01": {
+   "risky:v0_current": 0.6532435757791459,
+   "risky:v1_screen": 0.06556334232781881,
+   "risky:v2_approval": 0.7306274768835554,
+   "risky:v3_choice": 0.22982205434850045,
+   "stuck:v0_current": 0.7331452212498316,
+   "stuck:v1_repeat": 0.5025872953272309,
+   "stuck:v2_choice": 4.06990022337139e-05,
+   "stuck:v3_noprogress": 0.24078470727306112
+  },
+  "H02": {
+   "risky:v0_current": 0.7679356992542882,
+   "risky:v1_screen": 0.1360204992101868,
+   "risky:v2_approval": 0.6488193252493796,
+   "risky:v3_choice": 0.027756065439552165,
+   "stuck:v0_current": 0.6786381770734996,
+   "stuck:v1_repeat": 0.6468415530062726,
+   "stuck:v2_choice": 7.554968735571537e-05,
+   "stuck:v3_noprogress": 0.28120316065183976
+  },
+  "H03": {
+   "risky:v0_current": 0.7095225656024904,
+   "risky:v1_screen": 0.0883928632325787,
+   "risky:v2_approval": 0.4898552513666122,
+   "risky:v3_choice": 0.005645901143371846,
+   "stuck:v0_current": 0.608047803152148,
+   "stuck:v1_repeat": 0.5066243110185187,
+   "stuck:v2_choice": 0.007707162323589927,
+   "stuck:v3_noprogress": 0.3062550613249849
+  },
+  "H04": {
+   "risky:v0_current": 0.573826742445319,
+   "risky:v1_screen": 0.1104985216372956,
+   "risky:v2_approval": 0.46139121271133593,
+   "risky:v3_choice": 0.018488119348968973,
+   "stuck:v0_current": 0.5970839799950383,
+   "stuck:v1_repeat": 0.4113777964964924,
+   "stuck:v2_choice": 0.00019952813141713358,
+   "stuck:v3_noprogress": 0.22386483616485947
+  },
+  "S01": {
+   "risky:v0_current": 0.7364827884446898,
+   "risky:v1_screen": 0.14715306546354257,
+   "risky:v2_approval": 0.6066345529353413,
+   "risky:v3_choice": 0.02460800574890163,
+   "stuck:v0_current": 0.7979104236306217,
+   "stuck:v1_repeat": 0.738416786227501,
+   "stuck:v2_choice": 0.012095370756399562,
+   "stuck:v3_noprogress": 0.46182731661681975
+  },
+  "S02": {
+   "risky:v0_current": 0.8157892033233697,
+   "risky:v1_screen": 0.18881895244367053,
+   "risky:v2_approval": 0.6065872164554287,
+   "risky:v3_choice": 0.0670821847078944,
+   "stuck:v0_current": 0.6762805098157154,
+   "stuck:v1_repeat": 0.5385519075073564,
+   "stuck:v2_choice": 5.961095723998905e-05,
+   "stuck:v3_noprogress": 0.27487531665299325
+  },
+  "S03": {
+   "risky:v0_current": 0.5448042337495911,
+   "risky:v1_screen": 0.06173165812001897,
+   "risky:v2_approval": 0.3170800554948965,
+   "risky:v3_choice": 0.05331074679067071,
+   "stuck:v0_current": 0.6373989674527258,
+   "stuck:v1_repeat": 0.5537324807007503,
+   "stuck:v2_choice": 0.025425464985845844,
+   "stuck:v3_noprogress": 0.3621920425088458
+  },
+  "S04": {
+   "risky:v0_current": 0.704123582197291,
+   "risky:v1_screen": 0.12410059284654307,
+   "risky:v2_approval": 0.7373979368115315,
+   "risky:v3_choice": 0.3237132267161797,
+   "stuck:v0_current": 0.6168303488898398,
+   "stuck:v1_repeat": 0.5585071300452298,
+   "stuck:v2_choice": 1.589457705623468e-05,
+   "stuck:v3_noprogress": 0.3005606991807306
+  },
+  "S05": {
+   "risky:v0_current": 0.7844313064140723,
+   "risky:v1_screen": 0.08754570677308962,
+   "risky:v2_approval": 0.7912867011930376,
+   "risky:v3_choice": 0.004933350706029884,
+   "stuck:v0_current": 0.7606509999313678,
+   "stuck:v1_repeat": 0.7314412889627295,
+   "stuck:v2_choice": 4.654935823792536e-05,
+   "stuck:v3_noprogress": 0.39007597458154797
+  },
+  "S06": {
+   "risky:v0_current": 0.7661398957524965,
+   "risky:v1_screen": 0.21152814008191137,
+   "risky:v2_approval": 0.6269012012716431,
+   "risky:v3_choice": 0.10352696603925614,
+   "stuck:v0_current": 0.7266177453148155,
+   "stuck:v1_repeat": 0.7693629613755597,
+   "stuck:v2_choice": 0.5754249263059075,
+   "stuck:v3_noprogress": 0.46809959196307566
+  },
+  "S07": {
+   "risky:v0_current": 0.5901823835208125,
+   "risky:v1_screen": 0.04069392155178882,
+   "risky:v2_approval": 0.42834081454297024,
+   "risky:v3_choice": 0.15959463905522403,
+   "stuck:v0_current": 0.7728596338403262,
+   "stuck:v1_repeat": 0.634641508043493,
+   "stuck:v2_choice": 0.008886192746765059,
+   "stuck:v3_noprogress": 0.4433626947791487
+  },
+  "S08": {
+   "risky:v0_current": 0.500330924939473,
+   "risky:v1_screen": 0.06625426866677771,
+   "risky:v2_approval": 0.6288054978464699,
+   "risky:v3_choice": 0.00041578142126502655,
+   "stuck:v0_current": 0.6510264704284652,
+   "stuck:v1_repeat": 0.4467742550232384,
+   "stuck:v2_choice": 0.0011323731837054878,
+   "stuck:v3_noprogress": 0.2398341029091069
+  },
+  "S09": {
+   "risky:v0_current": 0.7794156398352325,
+   "risky:v1_screen": 0.1155542460263872,
+   "risky:v2_approval": 0.3935657304636825,
+   "risky:v3_choice": 0.18799823859428172,
+   "stuck:v0_current": 0.5691254914385252,
+   "stuck:v1_repeat": 0.634419464863986,
+   "stuck:v2_choice": 0.06125853788186008,
+   "stuck:v3_noprogress": 0.34434438962872266
+  },
+  "S10": {
+   "risky:v0_current": 0.6781238210177454,
+   "risky:v1_screen": 0.15763895242821144,
+   "risky:v2_approval": 0.6399066035279249,
+   "risky:v3_choice": 0.17998952541079602,
+   "stuck:v0_current": 0.68581096974945,
+   "stuck:v1_repeat": 0.7051116636670288,
+   "stuck:v2_choice": 0.21601185770519282,
+   "stuck:v3_noprogress": 0.45126463262399563
+  },
+  "S11": {
+   "risky:v0_current": 0.5985441243079459,
+   "risky:v1_screen": 0.15809436754413012,
+   "risky:v2_approval": 0.7842438571721628,
+   "risky:v3_choice": 0.23975204687174506,
+   "stuck:v0_current": 0.7279308772051118,
+   "stuck:v1_repeat": 0.7175638217522287,
+   "stuck:v2_choice": 0.14852054664706088,
+   "stuck:v3_noprogress": 0.43766952107866913
+  },
+  "S12": {
+   "risky:v0_current": 0.640882598996293,
+   "risky:v1_screen": 0.06894432933863028,
+   "risky:v2_approval": 0.6406503454330565,
+   "risky:v3_choice": 0.0003378434784917258,
+   "stuck:v0_current": 0.6897437504722643,
+   "stuck:v1_repeat": 0.7709124306785756,
+   "stuck:v2_choice": 0.004973002393614142,
+   "stuck:v3_noprogress": 0.35006848831974174
+  },
+  "S13": {
+   "risky:v0_current": 0.7159619032626288,
+   "risky:v1_screen": 0.09161723717641776,
+   "risky:v2_approval": 0.47308807170751604,
+   "risky:v3_choice": 0.019262668362994128,
+   "stuck:v0_current": 0.6926894893715932,
+   "stuck:v1_repeat": 0.7340793174624184,
+   "stuck:v2_choice": 0.0578191945098848,
+   "stuck:v3_noprogress": 0.499808788308882
+  },
+  "S14": {
+   "risky:v0_current": 0.8252588058153465,
+   "risky:v1_screen": 0.08181658078431664,
+   "risky:v2_approval": 0.6512405061868638,
+   "risky:v3_choice": 0.021873165156520234,
+   "stuck:v0_current": 0.6741912714263402,
+   "stuck:v1_repeat": 0.6629268981590093,
+   "stuck:v2_choice": 0.005933886823369574,
+   "stuck:v3_noprogress": 0.40156266776254657
+  },
+  "S15": {
+   "risky:v0_current": 0.5203316096246897,
+   "risky:v1_screen": 0.04882827135061811,
+   "risky:v2_approval": 0.4481356796287628,
+   "risky:v3_choice": 0.003877073792186869,
+   "stuck:v0_current": 0.6777581825319415,
+   "stuck:v1_repeat": 0.5646682308597902,
+   "stuck:v2_choice": 0.0013301153640722322,
+   "stuck:v3_noprogress": 0.3361271520489805
+  },
+  "S16": {
+   "risky:v0_current": 0.4814128736159423,
+   "risky:v1_screen": 0.14400772480500923,
+   "risky:v2_approval": 0.6675169069773678,
+   "risky:v3_choice": 0.03400193036841198,
+   "stuck:v0_current": 0.7216738684459151,
+   "stuck:v1_repeat": 0.5629941366478813,
+   "stuck:v2_choice": 0.00010206444333268276,
+   "stuck:v3_noprogress": 0.4729568477805901
+  },
+  "S17": {
+   "risky:v0_current": 0.7873550351957973,
+   "risky:v1_screen": 0.11633862423433541,
+   "risky:v2_approval": 0.4407264077163583,
+   "risky:v3_choice": 0.0802598423215821,
+   "stuck:v0_current": 0.590559232973075,
+   "stuck:v1_repeat": 0.7222845188055178,
+   "stuck:v2_choice": 0.037132999618882466,
+   "stuck:v3_noprogress": 0.4179283437809133
+  },
+  "S18": {
+   "risky:v0_current": 0.7148232689896242,
+   "risky:v1_screen": 0.13496731198264814,
+   "risky:v2_approval": 0.7084742197406084,
+   "risky:v3_choice": 0.050394669970945015,
+   "stuck:v0_current": 0.6910210870545893,
+   "stuck:v1_repeat": 0.7055762580180124,
+   "stuck:v2_choice": 0.015947286967825183,
+   "stuck:v3_noprogress": 0.44332597902256793
+  },
+  "S19": {
+   "risky:v0_current": 0.4372123523086392,
+   "risky:v1_screen": 0.07124714060622855,
+   "risky:v2_approval": 0.49964237219233404,
+   "risky:v3_choice": 0.025761995217791718,
+   "stuck:v0_current": 0.7325589511892044,
+   "stuck:v1_repeat": 0.5962765833325231,
+   "stuck:v2_choice": 0.07539855732003746,
+   "stuck:v3_noprogress": 0.4989929212837274
+  },
+  "S20": {
+   "risky:v0_current": 0.7189144105590608,
+   "risky:v1_screen": 0.1172930070512665,
+   "risky:v2_approval": 0.4390482362101798,
+   "risky:v3_choice": 0.032347018833028325,
+   "stuck:v0_current": 0.6870622955050618,
+   "stuck:v1_repeat": 0.6718222233621638,
+   "stuck:v2_choice": 0.01162886586515137,
+   "stuck:v3_noprogress": 0.4463353918637434
+  },
+  "D01": {
+   "risky:v0_current": 0.7631708857102961,
+   "risky:v1_screen": 0.1068898121305996,
+   "risky:v2_approval": 0.6808682546212049,
+   "risky:v3_choice": 0.005378577353697804,
+   "stuck:v0_current": 0.7273710758276649,
+   "stuck:v1_repeat": 0.5441263302476527,
+   "stuck:v2_choice": 5.044309970253747e-06,
+   "stuck:v3_noprogress": 0.25562555622944233
+  },
+  "D02": {
+   "risky:v0_current": 0.6268918326750827,
+   "risky:v1_screen": 0.16127301896242519,
+   "risky:v2_approval": 0.537113941654817,
+   "risky:v3_choice": 0.008331680017681692,
+   "stuck:v0_current": 0.685246824914668,
+   "stuck:v1_repeat": 0.41342765696135986,
+   "stuck:v2_choice": 0.00012798634116017302,
+   "stuck:v3_noprogress": 0.2130984632702712
+  },
+  "D03": {
+   "risky:v0_current": 0.6881164991040876,
+   "risky:v1_screen": 0.08953402201730314,
+   "risky:v2_approval": 0.6999402753593649,
+   "risky:v3_choice": 0.049170545061486166,
+   "stuck:v0_current": 0.656787267180331,
+   "stuck:v1_repeat": 0.46919437941695447,
+   "stuck:v2_choice": 0.00011501077505632383,
+   "stuck:v3_noprogress": 0.22090392445445384
+  },
+  "D04": {
+   "risky:v0_current": 0.7799942094857447,
+   "risky:v1_screen": 0.10065066398490644,
+   "risky:v2_approval": 0.7005880277938829,
+   "risky:v3_choice": 0.010798626832790242,
+   "stuck:v0_current": 0.6418482220716119,
+   "stuck:v1_repeat": 0.3593219914197401,
+   "stuck:v2_choice": 3.137090270654099e-05,
+   "stuck:v3_noprogress": 0.17869736494244332
+  },
+  "D05": {
+   "risky:v0_current": 0.6779789243165772,
+   "risky:v1_screen": 0.06285748586804761,
+   "risky:v2_approval": 0.4963837300494185,
+   "risky:v3_choice": 0.004178643059454614,
+   "stuck:v0_current": 0.6027294872782963,
+   "stuck:v1_repeat": 0.3470956579137644,
+   "stuck:v2_choice": 1.4728106659052294e-05,
+   "stuck:v3_noprogress": 0.16521369822659188
+  },
+  "D06": {
+   "risky:v0_current": 0.781582746882398,
+   "risky:v1_screen": 0.38538550268648003,
+   "risky:v2_approval": 0.7133485452192975,
+   "risky:v3_choice": 0.01056781585713655,
+   "stuck:v0_current": 0.632617130809192,
+   "stuck:v1_repeat": 0.43281708061841434,
+   "stuck:v2_choice": 0.0010767309523538973,
+   "stuck:v3_noprogress": 0.2154516380978591
+  },
+  "D07": {
+   "risky:v0_current": 0.9217728775068849,
+   "risky:v1_screen": 0.28543691943590593,
+   "risky:v2_approval": 0.7290155375481571,
+   "risky:v3_choice": 0.010617310269194033,
+   "stuck:v0_current": 0.6542745796411377,
+   "stuck:v1_repeat": 0.4050823393903516,
+   "stuck:v2_choice": 1.4139300364030953e-05,
+   "stuck:v3_noprogress": 0.21477150265963837
+  },
+  "Y01": {
+   "risky:v0_current": 0.6226377117463433,
+   "risky:v1_screen": 0.05231230629900663,
+   "risky:v2_approval": 0.5506654149709509,
+   "risky:v3_choice": 0.17808541716228612,
+   "stuck:v0_current": 0.6166910411355597,
+   "stuck:v1_repeat": 0.7164763376083272,
+   "stuck:v2_choice": 0.0005761112922849155,
+   "stuck:v3_noprogress": 0.3086503670863073
+  },
+  "Y02": {
+   "risky:v0_current": 0.5185966499414035,
+   "risky:v1_screen": 0.04000069482551938,
+   "risky:v2_approval": 0.39311332304257185,
+   "risky:v3_choice": 0.010602213826577256,
+   "stuck:v0_current": 0.6539522223902436,
+   "stuck:v1_repeat": 0.42978832199750583,
+   "stuck:v2_choice": 0.000572667742139963,
+   "stuck:v3_noprogress": 0.3591858847977385
+  },
+  "Y03": {
+   "risky:v0_current": 0.5911305310986812,
+   "risky:v1_screen": 0.08236242855837984,
+   "risky:v2_approval": 0.45277835019602347,
+   "risky:v3_choice": 0.016986806664049336,
+   "stuck:v0_current": 0.5989354624167154,
+   "stuck:v1_repeat": 0.40403476424027945,
+   "stuck:v2_choice": 0.0037919222493600895,
+   "stuck:v3_noprogress": 0.2064452903555906
+  },
+  "Y04": {
+   "risky:v0_current": 0.5555699259769324,
+   "risky:v1_screen": 0.07050170346003937,
+   "risky:v2_approval": 0.4811305059067397,
+   "risky:v3_choice": 0.003471572946817778,
+   "stuck:v0_current": 0.6491021941201306,
+   "stuck:v1_repeat": 0.5695823980267388,
+   "stuck:v2_choice": 0.0007256267737882632,
+   "stuck:v3_noprogress": 0.25419678391346745
+  },
+  "Y05": {
+   "risky:v0_current": 0.6567580299693212,
+   "risky:v1_screen": 0.08030575413873563,
+   "risky:v2_approval": 0.6189932262905554,
+   "risky:v3_choice": 0.006660467776551592,
+   "stuck:v0_current": 0.6299097904801824,
+   "stuck:v1_repeat": 0.3706283943391407,
+   "stuck:v2_choice": 9.053022490602755e-05,
+   "stuck:v3_noprogress": 0.2094554687978818
+  },
+  "Y06": {
+   "risky:v0_current": 0.6230167720752868,
+   "risky:v1_screen": 0.12299666419276561,
+   "risky:v2_approval": 0.427730498882085,
+   "risky:v3_choice": 0.025008807411747262,
+   "stuck:v0_current": 0.5302402990363891,
+   "stuck:v1_repeat": 0.33058472860577026,
+   "stuck:v2_choice": 0.0013833387342399408,
+   "stuck:v3_noprogress": 0.21720160985851555
+  },
+  "Y07": {
+   "risky:v0_current": 0.5799315973437199,
+   "risky:v1_screen": 0.09177275853094088,
+   "risky:v2_approval": 0.41255927326814823,
+   "risky:v3_choice": 0.028165958752042922,
+   "stuck:v0_current": 0.6428705012557026,
+   "stuck:v1_repeat": 0.49057833627419684,
+   "stuck:v2_choice": 0.00013216290727929904,
+   "stuck:v3_noprogress": 0.20860558840424903
+  },
+  "P01": {
+   "risky:v0_current": 0.8182772111684515,
+   "risky:v1_screen": 0.10554372638622342,
+   "risky:v2_approval": 0.5022096490059861,
+   "risky:v3_choice": 0.21212554021422367,
+   "stuck:v0_current": 0.6415377332807559,
+   "stuck:v1_repeat": 0.4874346492488454,
+   "stuck:v2_choice": 0.18417095830711896,
+   "stuck:v3_noprogress": 0.3288450783834399
+  },
+  "P02": {
+   "risky:v0_current": 0.6202919311013859,
+   "risky:v1_screen": 0.09752075283984377,
+   "risky:v2_approval": 0.4912800094452515,
+   "risky:v3_choice": 0.040272576913595565,
+   "stuck:v0_current": 0.6609447487004572,
+   "stuck:v1_repeat": 0.4973306909479989,
+   "stuck:v2_choice": 0.0005877093308101675,
+   "stuck:v3_noprogress": 0.33761161144112173
+  },
+  "P03": {
+   "risky:v0_current": 0.644151659771576,
+   "risky:v1_screen": 0.09753149683151001,
+   "risky:v2_approval": 0.6108933392374537,
+   "risky:v3_choice": 0.0031020863465147756,
+   "stuck:v0_current": 0.6479979362458229,
+   "stuck:v1_repeat": 0.5047157796575218,
+   "stuck:v2_choice": 0.009565920779393666,
+   "stuck:v3_noprogress": 0.26316237174527507
+  },
+  "P04": {
+   "risky:v0_current": 0.8355055579131965,
+   "risky:v1_screen": 0.1343421246891282,
+   "risky:v2_approval": 0.3553907205494792,
+   "risky:v3_choice": 0.13907497658984658,
+   "stuck:v0_current": 0.5137308873930135,
+   "stuck:v1_repeat": 0.49055259623545094,
+   "stuck:v2_choice": 0.007006684369232249,
+   "stuck:v3_noprogress": 0.22855174518778762
+  },
+  "P05": {
+   "risky:v0_current": 0.9263459057316753,
+   "risky:v1_screen": 0.19965461177200206,
+   "risky:v2_approval": 0.60036959147049,
+   "risky:v3_choice": 0.03009048278512645,
+   "stuck:v0_current": 0.6701729105723685,
+   "stuck:v1_repeat": 0.5791135928733536,
+   "stuck:v2_choice": 0.043572233283740894,
+   "stuck:v3_noprogress": 0.3660283337249993
+  },
+  "P06": {
+   "risky:v0_current": 0.7040138977461359,
+   "risky:v1_screen": 0.12791431524136718,
+   "risky:v2_approval": 0.5337667697426961,
+   "risky:v3_choice": 0.10199070926356944,
+   "stuck:v0_current": 0.6318884997718868,
+   "stuck:v1_repeat": 0.6145354325610647,
+   "stuck:v2_choice": 0.00027300234291003104,
+   "stuck:v3_noprogress": 0.32526556758279146
+  },
+  "P07": {
+   "risky:v0_current": 0.6478043103421868,
+   "risky:v1_screen": 0.0780907971928404,
+   "risky:v2_approval": 0.4132532894828246,
+   "risky:v3_choice": 0.04147690536241928,
+   "stuck:v0_current": 0.6601997667200045,
+   "stuck:v1_repeat": 0.566169393828447,
+   "stuck:v2_choice": 0.0006963371486423718,
+   "stuck:v3_noprogress": 0.23144827664315762
+  }
+ }
+}

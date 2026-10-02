@@ -1,0 +1,26 @@
+# environments, binaries, models, build output
+.venv/
+runtime/
+rust/target/
+__pycache__/
+*.pyc
+.pytest_cache/
+# local experiment artefacts (heads are 75 MB each; re-create with calib/ft_*.py)
+runs/
+# upstream repo cloned for fine-tuning: git clone https://github.com/Contrastive-LM/CLM external/CLM
+external/
+# recordings and logs
+*.mp4
+*.log
+# screenshots of the user's accounts / desktop
+demos/flow/
+scripts/_*.png
+# copyrighted reference artwork (Crayon Shin-chan cover) and everything derived from it; supply your own image to demos/ref/
+demos/ref/
+demos/shinchan_result.png
+demos/trace_result.png
+demos/trace_side_by_side.png
+# local state that may hold page text
+demos/flow_state.json
+calib/_*
+.claude/

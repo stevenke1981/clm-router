@@ -1,0 +1,8 @@
+{
+ "risky": 0.348,
+ "stuck": 0.368,
+ "done": 0.429,
+ "unexpected": 0.669,
+ "small_failure": 0.408,
+ "failed": 0.682
+}

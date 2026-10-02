@@ -1,0 +1,137 @@
+{
+ "log": [
+  {
+   "step": "set up custom colours",
+   "last_action": "opened Paint with a blank canvas",
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6365130242420749,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.129,
+    "unexpected": 0.123,
+    "small_failure": 0.305,
+    "last_action_ok": 0.514,
+    "risky": 0.107,
+    "stuck": 0.246
+   }
+  },
+  {
+   "step": "trace skin regions (3)",
+   "last_action": "set up custom colours",
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6445245382778475,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.173,
+    "unexpected": 0.13,
+    "small_failure": 0.295,
+    "last_action_ok": 0.553,
+    "risky": 0.132,
+    "stuck": 0.249
+   }
+  },
+  {
+   "step": "trace black regions (7)",
+   "last_action": "trace skin regions",
+   "decision": {
+    "action": "continue",
+    "confidence": 0.6145537603530378,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.179,
+    "unexpected": 0.122,
+    "small_failure": 0.293,
+    "last_action_ok": 0.437,
+    "risky": 0.128,
+    "stuck": 0.242
+   }
+  },
+  {
+   "step": "trace orange regions (1)",
+   "last_action": "trace black regions",
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5891318668452763,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.171,
+    "unexpected": 0.121,
+    "small_failure": 0.301,
+    "last_action_ok": 0.4,
+    "risky": 0.141,
+    "stuck": 0.249
+   }
+  },
+  {
+   "step": "finished",
+   "last_action": "trace orange regions",
+   "decision": {
+    "action": "continue",
+    "confidence": 0.5927718469981162,
+    "route": "fast",
+    "reasons": [],
+    "targets": [],
+    "details": {}
+   },
+   "raw": {
+    "done": 0.188,
+    "unexpected": 0.124,
+    "small_failure": 0.308,
+    "last_action_ok": 0.405,
+    "risky": 0.136,
+    "stuck": 0.243
+   }
+  }
+ ],
+ "skipped": [],
+ "metrics": {
+  "mean_abs_colour_error": 16.8,
+  "black_line_iou": 0.713,
+  "bbox": [
+   647,
+   373,
+   1269,
+   905
+  ]
+ },
+ "review": {
+  "description": "[0] Subject: A cartoon character with a large head, black hair, thick eyebrows, pink skin, and a yellow shirt. Composition: Close-up view focusing on the upper body and face. Style: Simple 2D illustration with bold black outlines and flat colors. Text: None visible. Defects: Hands are simplified and lack detailed fingers, faces have minimal features (small dot for mouth, one eye open, one winking).",
+  "decision": {
+   "action": "local_edit",
+   "confidence": 0.5502211582416574,
+   "route": "review",
+   "reasons": [
+    "fails a criterion (meets p=0.72)",
+    "no regions supplied; main model must locate the defect"
+   ],
+   "targets": [],
+   "details": {
+    "region_scores": {},
+    "meets": 0.72,
+    "global_fault": 0.106
+   }
+  }
+ },
+ "recording": {
+  "ok": true,
+  "file": "C:\\Users\\steven\\Videos\\RecordScreen\\recording-1790911041906.mp4"
+ }
+}

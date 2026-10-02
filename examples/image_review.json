@@ -1,0 +1,6 @@
+{"mode":"image_review","task":"Poster for a coffee shop",
+ "image":{"brief":"Minimal poster, text 'OPEN DAILY 8-5', a latte cup in the centre",
+  "criteria":["text reads exactly OPEN DAILY 8-5","one latte cup centred","flat pastel style"],
+  "description":"Pastel poster, centred latte cup, headline reads 'OPEN DAILY 8-S'.",
+  "regions":[{"id":"headline","description":"text reads 'OPEN DAILY 8-S'"},{"id":"cup","description":"clean latte cup"}],
+  "metrics":{"width":1024,"height":1536}}}

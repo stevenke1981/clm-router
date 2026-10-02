@@ -1,0 +1,11 @@
+[package]
+name = "clm-router"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = { version = "1", features = ["preserve_order"] }
+base64 = "0.22"
+regex = "1"
+native-tls = "0.2"
+ureq = { version = "2", default-features = false, features = ["json", "native-tls"] }

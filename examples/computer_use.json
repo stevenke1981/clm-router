@@ -1,0 +1,4 @@
+{"mode":"computer_use","platform":"windows","task":"Install 7-Zip from the official site",
+ "history":["open Edge","search 7-zip","click first result"],
+ "last_action":"click Download",
+ "observation":{"text":"Windows prompt: 'Do you want to allow this app to make changes?' [Yes] [No]","change":"modal dialog appeared"}}
