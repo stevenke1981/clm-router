@@ -17,9 +17,9 @@ from mcp.server.mcpserver import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
-from . import policy
 from .client import CLM
 from .router import route
+from .tools import gate_request, image_request, summarize
 
 INSTRUCTIONS = """\
 CLM is a small, fast judgement model. It scores yes/no questions about text you give it; it cannot see pixels, cannot generate, and is not a security boundary.
@@ -45,9 +45,13 @@ def _client() -> CLM:
 def _run(req: dict) -> dict:
     try:
         return route(req, _client())
+    except urllib.error.HTTPError as e:
+        raise ToolError(f"CLM server returned HTTP {e.code}: {e.reason}") from e
     except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
         url = os.getenv("CLM_URL", "http://127.0.0.1:8700")
         raise ToolError(f"CLM server not reachable at {url} ({e}). Start it with scripts/start_clm_stack.ps1 (llama.cpp embedder + clm-serve).") from e
+    except ValueError as e:
+        raise ToolError(f"Invalid CLM response or request: {e}") from e
 
 
 @mcp.tool(name="clm_gate", annotations=ToolAnnotations(readOnlyHint=True, idempotentHint=True, openWorldHint=False),
@@ -55,30 +59,22 @@ def _run(req: dict) -> dict:
                       "confidence, reasons and the raw yes/no scores. `ask_user` means stop and ask the human. Pass the visible screen text / UI element names.")
 def clm_gate(task: str, screen_text: str, history: list[str] | None = None, last_action: str = "", prev_screen_text: str = "",
              platform: Literal["windows", "linux"] = "windows") -> dict:
-    if not screen_text.strip():
-        raise ToolError("screen_text must not be empty: this server never captures the screen itself")
-    obs = {"text": screen_text}
-    if prev_screen_text:
-        obs["prev_text"] = prev_screen_text          # lets the loop detector see "the screen did not change"
-    out = _run({"mode": "computer_use", "platform": platform, "task": task, "history": history or [], "last_action": last_action or "(none)",
-                "observation": obs})
-    d, raw = out["decision"], out["clm_raw"]
-    return {"action": d["action"], "route": d["route"], "confidence": round(d["confidence"], 3), "reasons": d["reasons"],
-            "scores": {k: round(v.get("noul", 0.0), 3) for k, v in raw.items() if "noul" in v},
-            "thresholds": {"risky": policy.RISKY_T, "stuck": policy.STUCK_T, "done": policy.DONE_T}}
+    try:
+        req = gate_request(task, screen_text, history, last_action, prev_screen_text, platform)
+    except ValueError as e:
+        raise ToolError(str(e)) from e
+    return summarize(_run(req))
 
 
 @mcp.tool(name="clm_review_image", annotations=ToolAnnotations(readOnlyHint=True, idempotentHint=True, openWorldHint=False),
           description="Judge a TEXT description of a generated image against its brief and criteria. Returns action (pass | local_edit | regenerate), confidence, "
                       "targets (the single most suspicious region, if regions were given) and region scores. It does not look at the image: describe it first.")
 def clm_review_image(brief: str, criteria: list[str], description: str, regions: list[dict] | None = None) -> dict:
-    if not description.strip():
-        raise ToolError("description must not be empty: describe the image first (this server does not call a vision model)")
-    regs = [{"id": str(r.get("id", "")), "description": str(r.get("description", ""))} for r in (regions or []) if r.get("id")]
-    out = _run({"mode": "image_review", "task": brief, "image": {"brief": brief, "criteria": criteria, "description": description, "regions": regs}})
-    d = out["decision"]
-    return {"action": d["action"], "route": d["route"], "confidence": round(d["confidence"], 3), "reasons": d["reasons"], "targets": d["targets"],
-            "meets": d["details"]["meets"], "global_fault": d["details"]["global_fault"], "region_scores": d["details"]["region_scores"]}
+    try:
+        req = image_request(brief, criteria, description, regions)
+    except ValueError as e:
+        raise ToolError(str(e)) from e
+    return summarize(_run(req))
 
 
 def main() -> None:

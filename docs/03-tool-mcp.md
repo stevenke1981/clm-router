@@ -1,5 +1,7 @@
 # 用法 C:當工具給模型呼叫(MCP 或 function calling)
 
+Codex、OpenCode、Pi 的安裝與驗證請見 [三種 agent 整合指南](04-agents.md)。MCP 與 `clm-router-tool` 共用輸入驗證及結果格式。
+
 讓模型**自己決定**何時呼叫 CLM 閘門。有兩條路:支援 MCP 的客戶端(Claude Code、Claude Desktop、Cursor…)直接掛 MCP 伺服器;其他模型用一般的 function calling。
 
 ## 1. 兩個工具(唯讀、純文字進 JSON 出)
@@ -79,7 +81,7 @@ tool result: {"action": "ask_user", "route": "review", "confidence": 0.58, "reas
 
 ## 5. 驗證
 
-- 單元測試:`cd python && pytest`(含 7 個 MCP 伺服器測試,CLM 用替身)。
+- 單元測試:`cd python && pytest`(CLM 用替身，包含 MCP、CLI、後端回應驗證與安裝設定測試)。
 - 協定層級冒煙測試(真的 CLM、真的 MCP 客戶端、stdio):`python examples/mcp_smoke.py`,預期:
 
   ```

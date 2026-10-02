@@ -1,5 +1,7 @@
 # CLM router
 
+**Codex / OpenCode / Pi 安裝：** 見 [三種 agent 整合指南](docs/04-agents.md)。在現有 `.venv` 執行 `python scripts/install_agents.py` 預覽，加入 `--apply` 安裝 MCP 與 skills。新增 `clm-router-tool` 提供同一套文字工具給 shell agent 使用。
+
 CLM-v0.1-8B 只做「給定 state,對你提供的選項/問題打分」,不能生成、也不看圖(純文字)。
 所以流程是:**畫面/圖片 → 文字描述 → CLM 判斷 → 把判斷+原始資料轉給主模型**。
 

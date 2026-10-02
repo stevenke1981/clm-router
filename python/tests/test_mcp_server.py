@@ -81,3 +81,19 @@ def test_both_tools_are_registered_read_only():
     names = {t.name: t for t in tools}
     assert set(names) == {"clm_gate", "clm_review_image"}
     assert all(t.annotations and t.annotations.read_only_hint for t in tools)
+
+
+def test_http_error_is_not_reported_as_connection_failure(monkeypatch):
+    import urllib.error
+    class Bad:
+        def system_one(self, *a, **kw):
+            raise urllib.error.HTTPError("http://localhost", 503, "Unavailable", {}, None)
+    use(monkeypatch, Bad())
+    with pytest.raises(ToolError, match="HTTP 503"):
+        s.clm_gate("t", "screen")
+
+
+def test_image_region_zero_is_scored(monkeypatch):
+    use(monkeypatch, Fake(meets=0.2, **{"region:0": 0.9}))
+    result = s.clm_review_image("poster", [], "bad headline", [{"id": 0, "description": "typo"}])
+    assert result["targets"] == ["0"]

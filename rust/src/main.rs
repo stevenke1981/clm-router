@@ -6,7 +6,13 @@ use std::{env, fs, io::Read};
 
 fn post(url: &str, body: Value, headers: &[(&str, String)]) -> Result<Value, String> {
     let tls = native_tls::TlsConnector::new().map_err(|e| e.to_string())?;
-    let agent = ureq::AgentBuilder::new().tls_connector(std::sync::Arc::new(tls)).build();
+    let timeout: f64 = env::var("CLM_TIMEOUT").unwrap_or_else(|_| "60".into())
+        .parse().map_err(|_| "CLM_TIMEOUT must be a positive finite number of seconds")?;
+    if !timeout.is_finite() || timeout <= 0.0 || timeout > 86400.0 {
+        return Err("CLM_TIMEOUT must be in (0, 86400] seconds".into());
+    }
+    let agent = ureq::AgentBuilder::new().tls_connector(std::sync::Arc::new(tls))
+        .timeout(std::time::Duration::from_secs_f64(timeout)).build();
     let mut r = agent.post(url).set("Content-Type", "application/json");
     for (k, v) in headers {
         r = r.set(k, v);
@@ -47,6 +53,21 @@ fn forward(payload: &Value) -> Result<String, String> {
     }
 }
 
+fn validate_answers(answers: &Value, questions: &Value) -> Result<(), String> {
+    let map = answers.as_object().ok_or("CLM response must contain an answers object")?;
+    for (name, question) in questions.as_object().ok_or("questions must be an object")? {
+        let answer = map.get(name).filter(|a| a.is_object())
+            .ok_or_else(|| format!("CLM response is missing answer {name:?}"))?;
+        if question["type"] == "noul" {
+            let p = answer["noul"].as_f64().ok_or_else(|| format!("invalid probability for {name:?}"))?;
+            if !p.is_finite() || !(0.0..=1.0).contains(&p) {
+                return Err(format!("invalid probability for {name:?}"));
+            }
+        }
+    }
+    Ok(())
+}
+
 fn run() -> Result<Value, String> {
     let args: Vec<String> = env::args().skip(1).collect();
     let input = args
@@ -71,6 +92,7 @@ fn run() -> Result<Value, String> {
             json!({"state": state, "questions": questions, "model": "clm-latest", "temperature": 1}),
             &[],
         )?;
+        validate_answers(&resp["answers"], &questions)?;
         Ok(resp["answers"].clone())
     };
     let low_conf = |d: &policy::Decision| d.reasons.iter().any(|r| r.starts_with("low confidence"));
@@ -92,6 +114,9 @@ fn run() -> Result<Value, String> {
                         (o.text, o.source, o.layer, o.tried, o.errors, o.screenshot)
                     }
                 };
+                if text.trim().is_empty() {
+                    return Err("No screen text available; provide observation.text or fix the observation backend".into());
+                }
                 let mut r = req.clone();
                 r["observation"]["text"] = json!(text);
                 state_seen = policy::computer_use_state(&r);
@@ -113,6 +138,9 @@ fn run() -> Result<Value, String> {
                 if let Some(path) = img["path"].as_str() {
                     r["image"]["description"] = json!(observe::describe_online(path, observe::IMAGE_PROMPT)?);
                 }
+            }
+            if r["image"]["description"].as_str().unwrap_or("").trim().is_empty() {
+                return Err("No image description available; describe the image before requesting a review".into());
             }
             state_seen = policy::image_state(&r);
             let answers = ask(state_seen.clone(), policy::image_questions(&r))?;
@@ -147,5 +175,21 @@ fn main() {
             eprintln!("error: {e}");
             std::process::exit(1);
         }
+    }
+}
+
+#[cfg(test)]
+mod response_tests {
+    use super::*;
+
+    #[test]
+    fn rejects_missing_and_invalid_probabilities() {
+        let questions = json!({"risky": {"type": "noul"}, "done": {"type": "noul"}});
+        for bad in [json!(null), json!({}), json!({"risky": {"noul": 0.1}}),
+            json!({"risky": {"noul": -0.1}, "done": {"noul": 0.1}}),
+            json!({"risky": {"noul": true}, "done": {"noul": 0.1}})] {
+            assert!(validate_answers(&bad, &questions).is_err());
+        }
+        assert!(validate_answers(&json!({"risky": {"noul": 0.0}, "done": {"noul": 1.0}}), &questions).is_ok());
     }
 }

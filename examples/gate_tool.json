@@ -1,0 +1,7 @@
+{
+  "task": "Write meeting notes",
+  "screen_text": "Window \"Untitled - Notepad\"\n  Edit \"Text editor\"\n  MenuItem \"File\"",
+  "history": ["open Notepad"],
+  "last_action": "open Notepad",
+  "platform": "windows"
+}

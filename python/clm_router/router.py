@@ -23,6 +23,8 @@ def _computer_use(req: dict, clm: CLM):
             o = {"text": given, "source": "caller", "layer": len(obs.LAYERS) - 1, "tried": []}
         else:
             o = obs.observe(req, start)
+        if not o["text"].strip():
+            raise ValueError("No screen text available; provide observation.text or fix the observation backend")
         r = {**req, "observation": {**(req.get("observation") or {}), "text": o["text"]}}
         state = policy.computer_use_state(r)
         answers = clm.system_one(state, policy.computer_use_questions())
@@ -37,6 +39,8 @@ def _image_review(req: dict, clm: CLM):
     img = req.get("image", {})
     if not img.get("description") and img.get("path") and obs.vlm_backend() == "online":
         req = {**req, "image": {**img, "description": obs.describe_online(img["path"], obs.IMAGE_PROMPT)}}
+    if not req.get("image", {}).get("description", "").strip():
+        raise ValueError("No image description available; describe the image before requesting a review")
     state = policy.image_state(req)
     answers = clm.system_one(state, policy.image_questions(req))
     return policy.decide_image(answers, req), answers, [], state

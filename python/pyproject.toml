@@ -11,10 +11,12 @@ license = { text = "Apache-2.0" }
 dependencies = []                      # the core is standard library only (HTTP to clm-serve via urllib)
 
 [project.optional-dependencies]
-mcp = ["mcp>=2"]                       # `python -m clm_router.mcp_server` / `clm-router-mcp`
-dev = ["pytest", "mcp>=2"]
+mcp = ["mcp>=2.2,<3"]                 # MCP SDK 2.x API
+dev = ["pytest", "mcp>=2.2,<3"]
 
 [project.scripts]
+clm-router = "clm_router.cli:main"
+clm-router-tool = "clm_router.tools:main"
 clm-router-mcp = "clm_router.mcp_server:main"
 
 [tool.setuptools.packages.find]
