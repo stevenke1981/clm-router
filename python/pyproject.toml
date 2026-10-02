@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clm-router"
+version = "0.1.0"
+description = "Router/gate around the CLM (Contrastive Language Model): judge GUI screens and generated images, hand the result to a main model"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = []                      # the core is standard library only (HTTP to clm-serve via urllib)
+
+[project.optional-dependencies]
+mcp = ["mcp>=2"]                       # `python -m clm_router.mcp_server` / `clm-router-mcp`
+dev = ["pytest", "mcp>=2"]
+
+[project.scripts]
+clm-router-mcp = "clm_router.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["clm_router*"]

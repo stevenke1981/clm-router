@@ -3,6 +3,18 @@
 CLM-v0.1-8B 只做「給定 state,對你提供的選項/問題打分」,不能生成、也不看圖(純文字)。
 所以流程是:**畫面/圖片 → 文字描述 → CLM 判斷 → 把判斷+原始資料轉給主模型**。
 
+## 使用說明(三種用法)
+
+其他模型要怎麼用這個專案,依你的情況選一種(都可以搭配使用):
+
+| 用法 | 說明 | 文件 |
+|---|---|---|
+| **A. 動作前的閘門** | 任何 agent 迴圈在每個 GUI 動作前先問 CLM:該停、重來、還是繼續(Python / 命令列 / Rust) | [docs/01-gate.md](docs/01-gate.md) |
+| **B. 轉交給主模型** | CLM 預檢後,把判斷與原始資料一起送給 Claude、GPT、Ollama 等任何主模型(`--send`,或自己組提示詞) | [docs/02-handoff.md](docs/02-handoff.md) |
+| **C. 當工具給模型呼叫** | 提供 **MCP 伺服器**(Claude Code 已實測)與 function calling 範例,讓模型自己決定何時檢查 | [docs/03-tool-mcp.md](docs/03-tool-mcp.md) |
+
+最快的試用:`pip install -e "python[mcp]"` → `python examples/gate_loop.py`(用法 A 範例)→ `python examples/mcp_smoke.py`(用法 C 的協定冒煙測試)。需要先啟動 CLM 服務(見用法 A 第 1 節)。
+
 ## 流程
 
 1. 呼叫端提供文字化的觀察(UI 文字/無障礙樹/OCR,或圖片的描述與各區域描述)。

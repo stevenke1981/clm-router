@@ -24,3 +24,6 @@ demos/trace_side_by_side.png
 demos/flow_state.json
 calib/_*
 .claude/
+*.egg-info/
+build/
+dist/
