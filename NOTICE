@@ -1,0 +1,7 @@
+clm-router
+Copyright 2026 stevenke1981
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project calls the Contrastive-LM CLM model (https://github.com/Contrastive-LM/CLM, Apache-2.0) over HTTP and
+does not include its code or weights. calib/ft_*.py show how to fine-tune its heads with the upstream train/finetune.py.
